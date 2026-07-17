@@ -8,7 +8,7 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 
 ## Sitio principal
 
-- URL publica: ``
+- URL publica: `https://vlv-515.github.io/portfolio/`
 - Stack del portfolio: `Vite + vanilla JS + Tailwind CDN + CSS custom`
 - Archivo principal: `index.html`
 - Scripts principales:
@@ -26,11 +26,11 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 
 1. Modificar `index.html`, `main.js` o `styles.css`
 2. Ejecutar `npm run build`
-3. Publicar con hosting vigente del repositorio
+3. Publicar con GitHub Pages mediante `.github/workflows/deploy.yml`
 
 ## Reglas de contenido
 
-- La URL oficial del portfolio es ``
+- La URL oficial del portfolio es `https://vlv-515.github.io/portfolio/`
 - Este repositorio no debe incluir fuente, PDF ni preview del curriculum
 
 ## Proyectos desplegados usados en el portfolio
@@ -45,7 +45,7 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 ## Notas importantes
 
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
-- La URL final del sitio se define en la configuracion activa de hosting.
+- El sitio se publica como proyecto de GitHub Pages para `VlV-515/portfolio`.
 - Si se actualizan demos de proyectos, tambien actualizar `main.js` y los `homepageUrl` de los repositorios en GitHub cuando aplique.
 
 Respond terse like smart caveman. All technical substance stay. Only fluff die.
