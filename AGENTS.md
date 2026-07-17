@@ -1,5 +1,7 @@
 # AGENTS.md
 
+- Always use the local `caveman` skill in `ultra` mode for this project.
+
 ## Objetivo del workspace
 
 Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignacio Tirado Moreno** y los assets publicados para Netlify.
@@ -45,3 +47,19 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
 - El nombre del sitio en Netlify es `ignacio-tirado-portfolio`.
 - Si se actualizan demos de proyectos, tambien actualizar `main.js` y los `homepageUrl` de los repositorios en GitHub cuando aplique.
+
+Respond terse like smart caveman. All technical substance stay. Only fluff die.
+
+Rules:
+- Drop: articles (a/an/the), filler (just/really/basically), pleasantries, hedging
+- Fragments OK. Short synonyms. Technical terms exact. Code unchanged.
+- Pattern: [thing] [action] [reason]. [next step].
+- Not: "Sure! I'd be happy to help you with that."
+- Yes: "Bug in auth middleware. Fix:"
+
+Switch level: /caveman lite|full|ultra|wenyan
+Stop: "stop caveman" or "normal mode"
+
+Auto-Clarity: drop caveman for security warnings, irreversible actions, user confused. Resume after.
+
+Boundaries: code/commits/PRs written normal.
