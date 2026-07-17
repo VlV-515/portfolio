@@ -4,7 +4,7 @@ const projects = [
     type: 'Angular 17',
     description:
       'Frontend de e-commerce con Angular 17, Tailwind y flujo visual de compra. Muestra estructura moderna, routing y UI enfocada a conversion.',
-    demo: 'https://ecommerce-a17-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/ecommerce-angular17-tailwind-stripe',
     tags: ['Angular 17', 'Tailwind', 'TypeScript', 'Stripe UI']
   },
@@ -13,7 +13,7 @@ const projects = [
     type: 'Angular 13',
     description:
       'Demo completa de e-commerce con Angular Material, Bootstrap, carrito y exploracion de productos.',
-    demo: 'https://ecommerce-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/ecommerce-demo-angular',
     tags: ['Angular', 'Angular Material', 'Bootstrap', 'Toastr']
   },
@@ -22,7 +22,7 @@ const projects = [
     type: 'Angular 12',
     description:
       'Simulacion de asignacion de recursos por bloques de tiempo de 30 minutos. Resuelve una logica operativa clara con feedback visual.',
-    demo: 'https://motociclistas-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/2-Motociclistas-Angular',
     tags: ['Angular', 'Scheduling Logic', 'UI Feedback', 'Responsive']
   },
@@ -31,7 +31,7 @@ const projects = [
     type: 'Angular 12',
     description:
       'Carrito de compras demo con enfoque en flujo SPA, estado visual y experiencia de compra simplificada.',
-    demo: 'https://shopping-cart-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/demo-shoping-cart',
     tags: ['Angular', 'Cart Flow', 'SPA', 'TypeScript']
   },
@@ -40,7 +40,7 @@ const projects = [
     type: 'React',
     description:
       'Buscador de GIFs construido con React y Vite, orientado a consumo de APIs y respuesta rapida en frontend.',
-    demo: 'https://gif-search-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/demo-gif-search-react-test-vite',
     tags: ['React', 'Vite', 'API Consumption', 'JavaScript']
   },
@@ -49,7 +49,7 @@ const projects = [
     type: 'React',
     description:
       'Aplicacion React que consume la API de Rick and Morty usando contexto para organizacion de estado y navegacion de datos.',
-    demo: 'https://rick-morty-vlv.netlify.app',
+    demo: '',
     repo: 'https://github.com/VlV-515/rick-and-morty-react-useContext',
     tags: ['React', 'useContext', 'Axios', 'API Integration']
   }
@@ -74,7 +74,7 @@ const skillGroups = [
   {
     title: 'Backend y Flujo de Trabajo',
     description: 'Conocimiento complementario para integración, colaboración y operación del producto.',
-    items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM', 'Netlify']
+    items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM']
   },
   {
     title: 'IA y Developer Tooling',
@@ -101,7 +101,7 @@ projectsGrid.innerHTML = projects
           ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
         </div>
         <div class="project-links">
-          <a class="project-link" href="${project.demo}" target="_blank" rel="noreferrer">Demo</a>
+          ${project.demo ? `<a class="project-link" href="${project.demo}" target="_blank" rel="noreferrer">Demo</a>` : ''}
           <a class="project-link" href="${project.repo}" target="_blank" rel="noreferrer">Codigo</a>
         </div>
       </article>

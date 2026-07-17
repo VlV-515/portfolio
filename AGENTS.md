@@ -4,11 +4,11 @@
 
 ## Objetivo del workspace
 
-Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignacio Tirado Moreno** y los assets publicados para Netlify.
+Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignacio Tirado Moreno** y los assets publicados del sitio.
 
 ## Sitio principal
 
-- URL publica: `https://ignacio-tirado-portfolio.netlify.app`
+- URL publica: ``
 - Stack del portfolio: `Vite + vanilla JS + Tailwind CDN + CSS custom`
 - Archivo principal: `index.html`
 - Scripts principales:
@@ -26,26 +26,26 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 
 1. Modificar `index.html`, `main.js` o `styles.css`
 2. Ejecutar `npm run build`
-3. Publicar con `netlify deploy --prod --dir="dist" --no-build`
+3. Publicar con hosting vigente del repositorio
 
 ## Reglas de contenido
 
-- La URL oficial del portfolio es `https://ignacio-tirado-portfolio.netlify.app`
+- La URL oficial del portfolio es ``
 - Este repositorio no debe incluir fuente, PDF ni preview del curriculum
 
 ## Proyectos desplegados usados en el portfolio
 
-- `https://ecommerce-a17-vlv.netlify.app`
-- `https://ecommerce-vlv.netlify.app`
-- `https://motociclistas-vlv.netlify.app`
-- `https://shopping-cart-vlv.netlify.app`
-- `https://gif-search-vlv.netlify.app`
-- `https://rick-morty-vlv.netlify.app`
+- `Ecommerce Angular 17 Tailwind Stripe`
+- `Ecommerce Demo Angular`
+- `Motociclistas Angular`
+- `Demo Shopping Cart`
+- `GIF Search React Vite`
+- `Rick and Morty React UseContext`
 
 ## Notas importantes
 
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
-- El nombre del sitio en Netlify es `ignacio-tirado-portfolio`.
+- La URL final del sitio se define en la configuracion activa de hosting.
 - Si se actualizan demos de proyectos, tambien actualizar `main.js` y los `homepageUrl` de los repositorios en GitHub cuando aplique.
 
 Respond terse like smart caveman. All technical substance stay. Only fluff die.
