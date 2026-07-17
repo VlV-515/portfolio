@@ -1,5 +1,30 @@
 const projects = [
   {
+    title: 'clasecitas-vlv',
+    type: 'NPM + CSS Toolkit',
+    description:
+      'Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm, con paquete companion de types para TypeScript y un cheat sheet publico para explorar clases reales, prefijos responsive y ejemplos.',
+    links: [
+      {
+        label: 'Cheat Sheet',
+        href: 'https://vlv-515.github.io/clasecitas-vlv-page/'
+      },
+      {
+        label: 'npm',
+        href: 'https://www.npmjs.com/package/clasecitas-vlv'
+      },
+      {
+        label: 'Types',
+        href: 'https://www.npmjs.com/package/clasecitas-vlv-types'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/clasecitas-vlv'
+      }
+    ],
+    tags: ['npm', 'CSS Utilities', 'SCSS', 'TypeScript Types', 'Grid System']
+  },
+  {
     title: 'Ecommerce Angular 17 Tailwind Stripe',
     type: 'Angular 17',
     description:
@@ -74,7 +99,7 @@ const skillGroups = [
   {
     title: 'Backend y Flujo de Trabajo',
     description: 'Conocimiento complementario para integración, colaboración y operación del producto.',
-    items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM']
+    items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing']
   },
   {
     title: 'IA y Developer Tooling',
@@ -88,7 +113,15 @@ const skillsGrid = document.querySelector('#skills-grid');
 
 projectsGrid.innerHTML = projects
   .map(
-    (project) => `
+    (project) => {
+      const links = project.links
+        ? project.links
+        : [
+            ...(project.demo ? [{ label: 'Demo', href: project.demo }] : []),
+            ...(project.repo ? [{ label: 'Codigo', href: project.repo }] : [])
+          ];
+
+      return `
       <article class="project-card reveal">
         <div class="project-header">
           <div>
@@ -101,11 +134,16 @@ projectsGrid.innerHTML = projects
           ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
         </div>
         <div class="project-links">
-          ${project.demo ? `<a class="project-link" href="${project.demo}" target="_blank" rel="noreferrer">Demo</a>` : ''}
-          <a class="project-link" href="${project.repo}" target="_blank" rel="noreferrer">Codigo</a>
+          ${links
+            .map(
+              (link) =>
+                `<a class="project-link" href="${link.href}" target="_blank" rel="noreferrer">${link.label}</a>`
+            )
+            .join('')}
         </div>
       </article>
-    `
+    `;
+    }
   )
   .join('');
 

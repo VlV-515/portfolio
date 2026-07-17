@@ -16,6 +16,7 @@ Presentar experiencia, skills, proyectos y contacto con una landing clara y visu
 - Deploy workflow: `.github/workflows/deploy.yml`
 - Base Vite obligatoria: `'/portfolio/'`
 - Hook local: `.husky/pre-commit`
+- Superficie publica destacada: portfolio personal + referencia a `clasecitas-vlv`, `clasecitas-vlv-types` y `clasecitas-vlv-page`
 
 ## Superficie editable
 
@@ -32,10 +33,12 @@ Presentar experiencia, skills, proyectos y contacto con una landing clara y visu
 - Links de demos externos removidos hasta tener URLs nuevas
 - GitHub Pages usa ruta de proyecto, no dominio raiz
 - PDF y preview del CV siguen en `public/` mientras el sitio los enlace
+- `clasecitas-vlv` debe presentarse como paquete npm publicado con repo, companion types y cheat sheet publico
 
 ## Cuando tocar docs
 
 - Cambio de URL publica
 - Cambio de hosting o workflow de deploy
 - Alta/baja de proyectos destacados
+- Cambio de links publicos de paquetes npm o showcases externos
 - Cambio de bio, stack o links de contacto

@@ -57,6 +57,9 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 
 ## Activos mostrados
 
+- `clasecitas-vlv`
+- `clasecitas-vlv-types`
+- `clasecitas-vlv-page`
 - `Ecommerce Angular 17 Tailwind Stripe`
 - `Ecommerce Demo Angular`
 - `Motociclistas Angular`
@@ -67,5 +70,6 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 ## Notas
 
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
+- `clasecitas-vlv` se muestra como paquete npm con repo, companion types y cheat sheet publico.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`

@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Senior Frontend Developer</strong><br />
-  Angular | Arquitectura SPA | IA aplicada
+  Angular | Arquitectura SPA | IA aplicada | Open source
 </p>
 
 <p align="center">
@@ -38,6 +38,7 @@ Soy frontend developer con mas de 10 anos de experiencia construyendo interfaces
 - Interfaces responsivas para ERP, SCM, e-commerce y mobile-first
 - Arquitectura SPA mantenible y escalable
 - IA aplicada al flujo de desarrollo con agentes, MCP y tooling moderno
+- Authoring y publicacion de paquetes npm orientados a frontend
 
 ## Stack principal
 
@@ -71,6 +72,7 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 - Migracion y mantenimiento de e-commerce de Angular 7 a Angular 14
 - Mejora de ciclos de desarrollo en mas del 60%
 - Apps hibridas mobile-first con Ionic + Angular
+- Diseno y publicacion de utilidades frontend reutilizables en npm
 
 ### Enfoque actual
 
@@ -85,7 +87,25 @@ Integro herramientas y flujos orientados a acelerar exploracion tecnica, automat
 
 `AI Agents` `MCP` `Claude Code` `OpenCode` `Prompting` `Automation`
 
+## Open source y paquetes publicados
+
+- **clasecitas-vlv**  
+  Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.  
+  [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Repo](https://github.com/VlV-515/clasecitas-vlv) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/)
+
+- **clasecitas-vlv-types**  
+  Paquete companion con helpers para TypeScript y tipos de class names, pensado para mantenerse alineado por version con `clasecitas-vlv`.  
+  [npm](https://www.npmjs.com/package/clasecitas-vlv-types)
+
+- **clasecitas-vlv-page**  
+  Showcase y cheatsheet publico del paquete, con catalogo buscable generado desde el bundle real publicado, ejemplos live y referencia de prefijos responsive, colores y utilidades.  
+  [Sitio](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv-page)
+
 ## Proyectos destacados
+
+- **clasecitas-vlv**  
+  Toolkit CSS utility-first publicado en npm, con companion types para TypeScript y cheatsheet publico para exploracion de clases, grid y responsive utilities.  
+  [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Types](https://www.npmjs.com/package/clasecitas-vlv-types) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv)
 
 - **Ecommerce Angular 17 Tailwind Stripe**  
   Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.  
