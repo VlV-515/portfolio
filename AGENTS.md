@@ -4,7 +4,7 @@
 
 ## Objetivo del workspace
 
-Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignacio Tirado Moreno** y los assets publicados del sitio.
+Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tirado** y los assets publicados del sitio.
 
 ## Sitio principal
 
@@ -73,3 +73,6 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 - `clasecitas-vlv` se muestra como paquete npm con repo, companion types y cheat sheet publico.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`
+- El copy publico debe posicionar el perfil como fullstack con especialidad en frontend.
+- Al resumir stack, mencionar backend en `Python`, `TypeScript/Node.js` y `PHP`.
+- En IA aplicada, priorizar `agent engineering`, `harness engineering`, `loop engineering`, `SDD` y `TDD`; evitar mencionar herramientas concretas cuando no aporten valor.

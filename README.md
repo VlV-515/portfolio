@@ -1,12 +1,12 @@
 <h1 align="center">Jorge Ignacio Tirado</h1>
 
 <p align="center">
-  <strong>Senior Frontend Developer</strong><br />
-  Angular | Arquitectura SPA | IA aplicada | Open source
+  <strong>Fullstack Developer especializado en Frontend</strong><br />
+  Angular | Backend con Python, Node.js y PHP | IA aplicada
 </p>
 
 <p align="center">
-  Construyo productos web claros, escalables y orientados a negocio para ERP, SCM, e-commerce y experiencias mobile-first.
+  Construyo productos web claros, escalables y orientados a negocio para ERP, SCM, e-commerce y experiencias mobile-first, cubriendo frontend y backend segun lo requiera el producto.
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <strong>Angular y TypeScript</strong>
+  <strong>Frontend specialist + fullstack delivery</strong>
   ·
   <strong>10+ años de experiencia</strong>
   ·
@@ -31,22 +31,23 @@
 
 ## Sobre mi
 
-Soy frontend developer con mas de 10 anos de experiencia construyendo interfaces para producto, operacion y negocio real.
+Soy desarrollador fullstack con mas de 10 anos de experiencia construyendo producto para operacion y negocio real. Mi especialidad esta en frontend, pero tambien trabajo backend con Python, TypeScript sobre Node.js y PHP para resolver flujos end-to-end.
 
-- Desarrollo frontend con Angular y TypeScript
+- Especialidad en frontend con Angular y TypeScript
+- Backend productivo con Python, TypeScript sobre Node.js y PHP
 - Migraciones y modernizacion de aplicaciones existentes
 - Interfaces responsivas para ERP, SCM, e-commerce y mobile-first
-- Arquitectura SPA mantenible y escalable
-- IA aplicada al flujo de desarrollo con agentes, MCP y tooling moderno
+- Arquitectura mantenible de frontend, APIs y flujos end-to-end
+- IA aplicada al desarrollo con agent engineering, harness engineering, loop engineering, MCP, SDD y TDD
 - Authoring y publicacion de paquetes npm orientados a frontend
 
 ## Stack principal
 
 <p>
-  <img alt="Tech stack icons" src="https://skillicons.dev/icons?i=angular,ts,js,html,css,tailwind,bootstrap,react,vite,nodejs,mysql,mongodb,firebase,git,github" />
+  <img alt="Tech stack icons" src="https://skillicons.dev/icons?i=angular,ts,js,html,css,tailwind,bootstrap,react,vite,nodejs,python,php,mysql,mongodb,firebase,git,github" />
 </p>
 
-Tambien trabajo con `Angular Material`, `Ionic`, `RxJS`, `Jira` y `Scrum`.
+Tambien trabajo con `Angular Material`, `Ionic`, `RxJS`, `Node.js`, `Python`, `PHP`, `Jira` y `Scrum`.
 
 ## Testing y calidad
 
@@ -76,16 +77,16 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 
 ### Enfoque actual
 
-- IA aplicada en procesos de desarrollo y exploracion tecnica
-- Mejora de delivery, analisis y automatizacion
+- Entrega fullstack con foco en frontend y experiencia de producto
+- AI engineering aplicado a discovery, implementacion, pruebas y automatizacion
 - Colaboracion cercana con negocio y producto
 - Mentoria tecnica e impulso a equipos frontend
 
-## IA y developer tooling
+## IA aplicada y AI engineering
 
-Integro herramientas y flujos orientados a acelerar exploracion tecnica, automatizacion y calidad de producto.
+Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacion, pruebas y calidad de producto.
 
-`AI Agents` `MCP` `Claude Code` `OpenCode` `Prompting` `Automation`
+`AI Agents` `Agent Engineering` `Harness Engineering` `Loop Engineering` `MCP` `SDD` `TDD` `Prompting` `Automation`
 
 ## Open source y paquetes publicados
 
@@ -130,7 +131,7 @@ Integro herramientas y flujos orientados a acelerar exploracion tecnica, automat
 - LinkedIn: [jorge-ignacio-tirado-b98274223](https://www.linkedin.com/in/jorge-ignacio-tirado-b98274223/)
 - Email: `jorgeignacio2020@gmail.com`
 
-Si quieres hablar de frontend, Angular, migraciones o IA aplicada al desarrollo, podemos conectar.
+Si quieres hablar de frontend, delivery fullstack o IA aplicada al desarrollo, podemos conectar.
 
 ## Mantenimiento
 

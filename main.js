@@ -98,13 +98,13 @@ const skillGroups = [
   },
   {
     title: 'Backend y Flujo de Trabajo',
-    description: 'Conocimiento complementario para integración, colaboración y operación del producto.',
-    items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing']
+    description: 'Tecnologías con las que cierro flujos end-to-end, integración y operación del producto.',
+    items: ['Python', 'TypeScript', 'Node.js', 'PHP', 'MongoDB', 'MySQL', 'REST APIs', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing']
   },
   {
-    title: 'IA y Developer Tooling',
-    description: 'Capacidades actuales para acelerar exploración, automatización y ejecución técnica.',
-    items: ['IA aplicada', 'AI Agents', 'MCP', 'Claude Code', 'OpenCode', 'Prompting', 'Skills', 'Automation']
+    title: 'IA aplicada y AI Engineering',
+    description: 'Capacidades actuales para diseñar agentes, harnesses y loops guiados por especificación, pruebas y automatización.',
+    items: ['AI Agents', 'Agent Engineering', 'Harness Engineering', 'Loop Engineering', 'MCP', 'SDD', 'TDD', 'Prompting', 'Automation']
   }
 ];
 
