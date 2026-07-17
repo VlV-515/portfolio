@@ -111,3 +111,8 @@ Integro herramientas y flujos orientados a acelerar exploracion tecnica, automat
 - Email: `jorgeignacio2020@gmail.com`
 
 Si quieres hablar de frontend, Angular, migraciones o IA aplicada al desarrollo, podemos conectar.
+
+## Mantenimiento
+
+- Guia principal para agentes: [`AGENTS.md`](./AGENTS.md)
+- Mapa repo-native para Codex: [`.codex/README.md`](./.codex/README.md)

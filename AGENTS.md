@@ -9,18 +9,24 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 ## Sitio principal
 
 - URL publica: `https://vlv-515.github.io/portfolio/`
+- Hosting: `GitHub Pages` para `VlV-515/portfolio`
 - Stack del portfolio: `Vite + vanilla JS + Tailwind CDN + CSS custom`
 - Archivo principal: `index.html`
-- Scripts principales:
-  - `npm run build`
-  - `npm run preview`
 
-## Estructura relevante
+## Comandos base
+
+- `npm run build`: validacion obligatoria antes de cerrar cambios del sitio
+- `npm run preview`: revision local del build generado
+
+## Archivos clave
 
 - `index.html`: landing principal del portfolio
-- `main.js`: datos de proyectos y skills del portfolio
+- `main.js`: datos renderizados de proyectos y skills
 - `styles.css`: estilos globales del portfolio
 - `public/`: assets publicados directamente por Vite
+- `vite.config.js`: `base` obligatoria para GitHub Pages
+- `.github/workflows/deploy.yml`: workflow de despliegue
+- `.husky/pre-commit`: hook local que ejecuta `npm run build`
 
 ## Flujo de trabajo esperado
 
@@ -28,12 +34,28 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 2. Ejecutar `npm run build`
 3. Publicar con GitHub Pages mediante `.github/workflows/deploy.yml`
 
-## Reglas de contenido
+## Documentacion Codex
+
+- `.codex/README.md`: mapa rapido de contexto y arranque
+- `.codex/project-brief.md`: resumen funcional del sitio y decisiones activas
+- `.codex/rules/project.md`: reglas duras del repo
+- `.codex/rules/content.md`: reglas de copy, links y contenido
+- `.codex/rules/deploy.md`: contrato de build y GitHub Pages
+- `.codex/skills/refresh-portfolio-content/SKILL.md`: skill para cambios de contenido
+- `.codex/skills/release-github-pages/SKILL.md`: skill para cambios de despliegue
+- `.codex/agents/portfolio-maintainer.md`: rol sugerido para mantenimiento continuo
+
+## Reglas duras
 
 - La URL oficial del portfolio es `https://vlv-515.github.io/portfolio/`
-- Este repositorio no debe incluir fuente, PDF ni preview del curriculum
+- No reintroducir referencias a Netlify
+- Mantener `base: '/portfolio/'` en `vite.config.js`
+- Validar cambios visuales o de contenido con `npm run build`
+- Si cambian proyectos, skills o URLs, sincronizar `main.js`, `README.md`, `AGENTS.md` y `.codex/`
+- No mezclar branding o contexto de Kore/ERP en este repo
+- No agregar fuente editable del curriculum; los artefactos publicos del CV pueden vivir en `public/` mientras sigan enlazados
 
-## Proyectos desplegados usados en el portfolio
+## Activos mostrados
 
 - `Ecommerce Angular 17 Tailwind Stripe`
 - `Ecommerce Demo Angular`
@@ -42,24 +64,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 - `GIF Search React Vite`
 - `Rick and Morty React UseContext`
 
-## Notas importantes
+## Notas
 
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
-- El sitio se publica como proyecto de GitHub Pages para `VlV-515/portfolio`.
-- Si se actualizan demos de proyectos, tambien actualizar `main.js` y los `homepageUrl` de los repositorios en GitHub cuando aplique.
-
-Respond terse like smart caveman. All technical substance stay. Only fluff die.
-
-Rules:
-- Drop: articles (a/an/the), filler (just/really/basically), pleasantries, hedging
-- Fragments OK. Short synonyms. Technical terms exact. Code unchanged.
-- Pattern: [thing] [action] [reason]. [next step].
-- Not: "Sure! I'd be happy to help you with that."
-- Yes: "Bug in auth middleware. Fix:"
-
-Switch level: /caveman lite|full|ultra|wenyan
-Stop: "stop caveman" or "normal mode"
-
-Auto-Clarity: drop caveman for security warnings, irreversible actions, user confused. Resume after.
-
-Boundaries: code/commits/PRs written normal.
+- Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
+- Si cambia owner o nombre de repo, recalcular URL Pages y `base`
