@@ -67,6 +67,11 @@ const skillGroups = [
     items: ['Angular Material', 'Ionic', 'React', 'Vite', 'RxJS', 'Firebase', 'Stripe UI']
   },
   {
+    title: 'Testing',
+    description: 'Estrategias y herramientas para garantizar calidad en todos los niveles del producto.',
+    items: ['Jest', 'Playwright', 'Testing Library', 'Unit Testing', 'Functional Testing', 'E2E Testing']
+  },
+  {
     title: 'Backend y Flujo de Trabajo',
     description: 'Conocimiento complementario para integración, colaboración y operación del producto.',
     items: ['Node.js', 'MongoDB', 'MySQL', 'PHP', 'Git', 'GitHub', 'Jira', 'SCRUM', 'Netlify']
