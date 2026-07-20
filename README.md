@@ -39,7 +39,7 @@ Soy desarrollador fullstack con mas de 10 anos de experiencia construyendo produ
 - Interfaces responsivas para ERP, SCM, e-commerce y mobile-first
 - Arquitectura mantenible de frontend, APIs y flujos end-to-end
 - IA aplicada al desarrollo con agent engineering, harness engineering, loop engineering, MCP, SDD y TDD
-- Authoring y publicacion de paquetes npm orientados a frontend
+- Authoring y publicacion de paquetes npm, apps nativas macOS y releases verificables
 
 ## Stack principal
 
@@ -73,7 +73,7 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 - Migracion y mantenimiento de e-commerce de Angular 7 a Angular 14
 - Mejora de ciclos de desarrollo en mas del 60%
 - Apps hibridas mobile-first con Ionic + Angular
-- Diseno y publicacion de utilidades frontend reutilizables en npm
+- Diseno y publicacion de utilidades npm, apps nativas macOS y documentacion publica
 
 ### Enfoque actual
 
@@ -88,40 +88,64 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
 
 `AI Agents` `Agent Engineering` `Harness Engineering` `Loop Engineering` `MCP` `SDD` `TDD` `Prompting` `Automation`
 
-## Open source y paquetes publicados
+## Open source y productos publicados
 
-- **clasecitas-vlv**  
-  Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.  
+- **code-kit-vlv**
+  CLI publicado en npm para preparar repos AI-ready con guias para Codex, Claude y OpenCode, presets por stack, Caveman en modo ultra, politicas npm conservadoras y sincronizacion segura de archivos gestionados.
+  [npm](https://www.npmjs.com/package/code-kit-vlv) · [Repo](https://github.com/VlV-515/code-kit-vlv)
+
+- **Paste-vlv**
+  Clipboard manager nativo para macOS, local-first y gratuito. Guarda historial local, busqueda rapida, pinboards, favoritos, direct paste y backup JSON compacto de textos agrupados. Publicado como release `v1.0.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/paste-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/paste-vlv/) · [Repo](https://github.com/VlV-515/paste-vlv)
+
+- **LockApp-vlv**
+  App nativa de menu bar para macOS que protege apps seleccionadas con una pantalla de password. Usa Swift, AppKit, SwiftUI, Keychain y preferencias locales. Publicado como release `v1.0.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/lockapp-vlv/) · [Repo](https://github.com/VlV-515/lockapp-vlv)
+
+- **clasecitas-vlv**
+  Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.
   [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Repo](https://github.com/VlV-515/clasecitas-vlv) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/)
 
-- **clasecitas-vlv-types**  
-  Paquete companion con helpers para TypeScript y tipos de class names, pensado para mantenerse alineado por version con `clasecitas-vlv`.  
+- **clasecitas-vlv-types**
+  Paquete companion con helpers para TypeScript y tipos de class names, pensado para mantenerse alineado por version con `clasecitas-vlv`.
   [npm](https://www.npmjs.com/package/clasecitas-vlv-types)
 
-- **clasecitas-vlv-page**  
-  Showcase y cheatsheet publico del paquete, con catalogo buscable generado desde el bundle real publicado, ejemplos live y referencia de prefijos responsive, colores y utilidades.  
+- **clasecitas-vlv-page**
+  Showcase y cheatsheet publico del paquete, con catalogo buscable generado desde el bundle real publicado, ejemplos live y referencia de prefijos responsive, colores y utilidades.
   [Sitio](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv-page)
 
 ## Proyectos destacados
 
-- **clasecitas-vlv**  
-  Toolkit CSS utility-first publicado en npm, con companion types para TypeScript y cheatsheet publico para exploracion de clases, grid y responsive utilities.  
+- **clasecitas-vlv**
+  Toolkit CSS utility-first publicado en npm, con companion types para TypeScript y cheatsheet publico para exploracion de clases, grid y responsive utilities.
   [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Types](https://www.npmjs.com/package/clasecitas-vlv-types) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv)
 
-- **Ecommerce Angular 17 Tailwind Stripe**  
-  Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.  
+- **code-kit-vlv**
+  CLI npm para iniciar repos con contexto operativo para agentes, documentacion de comandos, reglas de seguridad y presets para stacks web, Node y macOS Swift.
+  [npm](https://www.npmjs.com/package/code-kit-vlv) · [Repo](https://github.com/VlV-515/code-kit-vlv)
+
+- **Paste-vlv**
+  App nativa macOS para gestionar clipboard history local con busqueda, pinboards, favoritos, direct paste y backups JSON de grupos de texto.
+  [Release](https://github.com/VlV-515/paste-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/paste-vlv/) · [Repo](https://github.com/VlV-515/paste-vlv)
+
+- **LockApp-vlv**
+  App nativa macOS para proteger apps seleccionadas con password, lista local de apps protegidas, Keychain y overlay full-screen.
+  [Release](https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/lockapp-vlv/) · [Repo](https://github.com/VlV-515/lockapp-vlv)
+
+- **Ecommerce Angular 17 Tailwind Stripe**
+  Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.
   [Repo](https://github.com/VlV-515/ecommerce-angular17-tailwind-stripe)
 
-- **Motociclistas Angular**  
-  Simulacion de asignacion de recursos por bloques de 30 minutos, con logica operativa clara y feedback visual.  
+- **Motociclistas Angular**
+  Simulacion de asignacion de recursos por bloques de 30 minutos, con logica operativa clara y feedback visual.
   [Repo](https://github.com/VlV-515/2-Motociclistas-Angular)
 
-- **GIF Search React Vite**  
-  Buscador de GIFs con React y Vite orientado a consumo de APIs y respuesta rapida en frontend.  
+- **GIF Search React Vite**
+  Buscador de GIFs con React y Vite orientado a consumo de APIs y respuesta rapida en frontend.
   [Repo](https://github.com/VlV-515/demo-gif-search-react-test-vite)
 
-- **Rick and Morty React UseContext**  
-  Aplicacion React con integracion de API y organizacion de estado usando context.  
+- **Rick and Morty React UseContext**
+  Aplicacion React con integracion de API y organizacion de estado usando context.
   [Repo](https://github.com/VlV-515/rick-and-morty-react-useContext)
 
 ## Contacto

@@ -1,5 +1,64 @@
 const projects = [
   {
+    title: 'code-kit-vlv',
+    type: 'NPM CLI',
+    description:
+      'CLI publicado en npm para convertir repos nuevos en workspaces AI-ready con guias para Codex, Claude y OpenCode, presets para distintos stacks, Caveman en modo ultra, politicas npm conservadoras y sincronizacion segura de archivos gestionados.',
+    links: [
+      {
+        label: 'npm',
+        href: 'https://www.npmjs.com/package/code-kit-vlv'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/code-kit-vlv'
+      }
+    ],
+    tags: ['npm', 'CLI', 'TypeScript', 'AI Agents', 'Codex', 'Claude', 'OpenCode']
+  },
+  {
+    title: 'Paste-vlv',
+    type: 'macOS App',
+    description:
+      'Clipboard manager nativo para macOS, local-first y gratuito. Guarda historial de texto, links, imagenes y archivos en el equipo, ofrece busqueda rapida, pinboards, favoritos, backup JSON de textos agrupados y release publica v1.0.0.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/paste-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/paste-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/paste-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Core Data', 'macOS', 'Local First']
+  },
+  {
+    title: 'LockApp-vlv',
+    type: 'macOS App',
+    description:
+      'App nativa de menu bar para macOS que pone apps seleccionadas detras de una pantalla de password. Usa Swift, AppKit, SwiftUI, Keychain y preferencias locales, con release publica v1.0.0 y mirror en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/lockapp-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/lockapp-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Keychain', 'macOS', 'Privacy Tool']
+  },
+  {
     title: 'clasecitas-vlv',
     type: 'NPM + CSS Toolkit',
     description:
@@ -99,7 +158,12 @@ const skillGroups = [
   {
     title: 'Backend y Flujo de Trabajo',
     description: 'Tecnologías con las que cierro flujos end-to-end, integración y operación del producto.',
-    items: ['Python', 'TypeScript', 'Node.js', 'PHP', 'MongoDB', 'MySQL', 'REST APIs', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing']
+    items: ['Python', 'TypeScript', 'Node.js', 'PHP', 'MongoDB', 'MySQL', 'REST APIs', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing', 'GitHub Releases']
+  },
+  {
+    title: 'Apps nativas macOS',
+    description: 'Herramientas personales nativas, locales y publicadas con releases verificables para macOS.',
+    items: ['Swift', 'AppKit', 'SwiftUI', 'Core Data', 'NSPasteboard', 'Keychain', 'Menu Bar Apps', 'SourceForge Mirrors']
   },
   {
     title: 'IA aplicada y AI Engineering',
