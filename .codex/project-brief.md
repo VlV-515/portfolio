@@ -16,7 +16,7 @@ Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proye
 - Deploy workflow: `.github/workflows/deploy.yml`
 - Base Vite obligatoria: `'/portfolio/'`
 - Hook local: `.husky/pre-commit`
-- Superficie publica destacada: portfolio personal + referencia a `clasecitas-vlv`, `clasecitas-vlv-types` y `clasecitas-vlv-page`
+- Superficie publica destacada: portfolio personal + referencia a `clasecitas-vlv`, `clasecitas-vlv-types`, `clasecitas-vlv-page`, `Caffeine vlv` y `Tomito vlv`
 
 ## Superficie editable
 
@@ -34,6 +34,8 @@ Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proye
 - GitHub Pages usa ruta de proyecto, no dominio raiz
 - PDF y preview del CV siguen en `public/` mientras el sitio los enlace
 - `clasecitas-vlv` debe presentarse como paquete npm publicado con repo, companion types y cheat sheet publico
+- `Caffeine vlv` debe presentarse como app macOS con release GitHub y fuente publicada en SourceForge; no afirmar binario SourceForge sin verificacion
+- `Tomito vlv` debe presentarse como app macOS con release GitHub y ZIP macOS publicado en SourceForge
 - El posicionamiento publico actual debe decir fullstack con especialidad en frontend
 - Al hablar de IA aplicada, priorizar agent engineering, harness engineering, loop engineering, SDD y TDD
 - No mencionar herramientas concretas de IA en copy publico cuando no aporten valor

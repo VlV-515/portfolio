@@ -102,6 +102,14 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
   App nativa de menu bar para macOS que protege apps seleccionadas con una pantalla de password. Usa Swift, AppKit, SwiftUI, Keychain y preferencias locales. Publicado como release `v1.0.0` con mirror en SourceForge.
   [Release](https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/lockapp-vlv/) · [Repo](https://github.com/VlV-515/lockapp-vlv)
 
+- **Caffeine vlv**
+  App nativa de menu bar para macOS que mantiene el equipo despierto con modos Full y Medium. Release `v1.0.0` con ZIP y checksum SHA-256 en GitHub; codigo fuente `v1.0.0` publicado en SourceForge.
+  [Release](https://github.com/VlV-515/caffeine-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/caffeine-vlv/) · [Repo](https://github.com/VlV-515/caffeine-vlv)
+
+- **Tomito vlv**
+  Temporizador Pomodoro nativo, local-first y privado para macOS, con sesiones y descansos configurables, controles de menu bar, notificaciones y soporte sleep/wake. Publicado como release `v1.0.0` en GitHub y SourceForge.
+  [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
+
 - **clasecitas-vlv**
   Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.
   [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Repo](https://github.com/VlV-515/clasecitas-vlv) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/)
@@ -131,6 +139,14 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
 - **LockApp-vlv**
   App nativa macOS para proteger apps seleccionadas con password, lista local de apps protegidas, Keychain y overlay full-screen.
   [Release](https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/lockapp-vlv/) · [Repo](https://github.com/VlV-515/lockapp-vlv)
+
+- **Caffeine vlv**
+  App nativa de menu bar para mantener macOS despierto, con modos Full y Medium para ajustar la energia de pantalla.
+  [Release](https://github.com/VlV-515/caffeine-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/caffeine-vlv/) · [Repo](https://github.com/VlV-515/caffeine-vlv)
+
+- **Tomito vlv**
+  Temporizador Pomodoro nativo y local-first para macOS, con ciclos configurables, menu bar, notificaciones y control de sleep/wake.
+  [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
 
 - **Ecommerce Angular 17 Tailwind Stripe**
   Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.

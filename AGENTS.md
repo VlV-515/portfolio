@@ -60,6 +60,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 - `clasecitas-vlv`
 - `clasecitas-vlv-types`
 - `clasecitas-vlv-page`
+- `Caffeine vlv`
+- `Tomito vlv`
 - `Ecommerce Angular 17 Tailwind Stripe`
 - `Ecommerce Demo Angular`
 - `Motociclistas Angular`
@@ -71,6 +73,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 
 - El curriculum vive ahora en el repositorio privado `curriculum-vitae`.
 - `clasecitas-vlv` se muestra como paquete npm con repo, companion types y cheat sheet publico.
+- `Caffeine vlv` se muestra como app macOS con release GitHub y codigo fuente publicado en SourceForge; no describir SourceForge como descarga binaria hasta verificarla.
+- `Tomito vlv` se muestra como app macOS con release GitHub y ZIP macOS publicado en SourceForge.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`
 - El copy publico debe posicionar el perfil como fullstack con especialidad en frontend.

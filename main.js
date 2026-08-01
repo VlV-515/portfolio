@@ -59,6 +59,48 @@ const projects = [
     tags: ['Swift', 'AppKit', 'SwiftUI', 'Keychain', 'macOS', 'Privacy Tool']
   },
   {
+    title: 'Caffeine vlv',
+    type: 'macOS App',
+    description:
+      'App nativa de menu bar para macOS que mantiene el equipo despierto con modos Full y Medium. Publicada como release v1.0.0 con ZIP y checksum SHA-256 en GitHub; codigo fuente v1.0.0 disponible en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/caffeine-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/caffeine-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/caffeine-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Menu Bar', 'Power Management', 'macOS']
+  },
+  {
+    title: 'Tomito vlv',
+    type: 'macOS App',
+    description:
+      'Temporizador Pomodoro nativo, local-first y privado para macOS. Incluye sesiones y descansos configurables, controles de menu bar, notificaciones, soporte sleep/wake y UI en ingles y espanol; release v1.0.0 en GitHub y SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/tomito-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/tomito-vlv'
+      }
+    ],
+    tags: ['Swift', 'SwiftUI', 'AppKit', 'Pomodoro', 'Local First', 'macOS']
+  },
+  {
     title: 'clasecitas-vlv',
     type: 'NPM + CSS Toolkit',
     description:
