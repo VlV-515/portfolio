@@ -60,8 +60,14 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 - `clasecitas-vlv`
 - `clasecitas-vlv-types`
 - `clasecitas-vlv-page`
+- `Paste-vlv`
+- `LockApp-vlv`
 - `Caffeine vlv`
 - `Tomito vlv`
+- `ClaudioBar VlV`
+- `Dont Touch vlv`
+- `Screen size vlv`
+- `Angular Dojo VlV`
 - `Ecommerce Angular 17 Tailwind Stripe`
 - `Ecommerce Demo Angular`
 - `Motociclistas Angular`
@@ -75,6 +81,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 - `clasecitas-vlv` se muestra como paquete npm con repo, companion types y cheat sheet publico.
 - `Caffeine vlv` se muestra como app macOS con release GitHub y codigo fuente publicado en SourceForge; no describir SourceForge como descarga binaria hasta verificarla.
 - `Tomito vlv` se muestra como app macOS con release GitHub y ZIP macOS publicado en SourceForge.
+- `ClaudioBar VlV`, `Dont Touch vlv` y `Screen size vlv` siguen el mismo patron: release GitHub con tag y mirror en SourceForge.
+- `Angular Dojo VlV` se muestra como proyecto Angular con CI (Jest y Playwright), sin release ni SourceForge.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`
 - El copy publico debe posicionar el perfil como fullstack con especialidad en frontend.

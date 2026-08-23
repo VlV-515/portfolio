@@ -110,6 +110,18 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
   Temporizador Pomodoro nativo, local-first y privado para macOS, con sesiones y descansos configurables, controles de menu bar, notificaciones y soporte sleep/wake. Publicado como release `v1.0.0` en GitHub y SourceForge.
   [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
 
+- **ClaudioBar VlV**
+  Utilidad nativa de menu bar para macOS que muestra en vivo el uso de sesion de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Publicado como release `v1.0.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/claudio-bar-vlv/) · [Repo](https://github.com/VlV-515/claudio-bar-vlv)
+
+- **Dont Touch vlv**
+  App nativa de menu bar para macOS que bloquea teclado y mouse via Accessibility API y desbloquea solo con una secuencia propia, con bloqueo automatico por inactividad e historial local de actividad. Publicado como release `v1.0.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/dont-touch-vlv/) · [Repo](https://github.com/VlV-515/dont-touch-vlv)
+
+- **Screen size vlv**
+  Gestor nativo de ventanas para macOS con atajos globales para mover la ventana activa a mitad izquierda, derecha, centro o pantalla completa util. Publicado como release `v1.2.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/screen-size-vlv/releases/tag/v1.2.0) · [SourceForge](https://sourceforge.net/projects/screen-size-vlv/) · [Repo](https://github.com/VlV-515/screen-size-vlv)
+
 - **clasecitas-vlv**
   Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.
   [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Repo](https://github.com/VlV-515/clasecitas-vlv) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/)
@@ -147,6 +159,22 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
 - **Tomito vlv**
   Temporizador Pomodoro nativo y local-first para macOS, con ciclos configurables, menu bar, notificaciones y control de sleep/wake.
   [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
+
+- **ClaudioBar VlV**
+  App nativa macOS de menu bar para monitorear en vivo el uso de sesion de Claude Code y configurar alertas por umbral con sonido y/o accion de shell.
+  [Release](https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/claudio-bar-vlv/) · [Repo](https://github.com/VlV-515/claudio-bar-vlv)
+
+- **Dont Touch vlv**
+  App nativa macOS que bloquea teclado y mouse via Accessibility API, con desbloqueo por secuencia propia, bloqueo automatico por inactividad e historial local de actividad.
+  [Release](https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/dont-touch-vlv/) · [Repo](https://github.com/VlV-515/dont-touch-vlv)
+
+- **Screen size vlv**
+  Gestor nativo de ventanas macOS con atajos globales para tiling izquierda/derecha, centrado y pantalla completa util, con overlay visual y atajos personalizables.
+  [Release](https://github.com/VlV-515/screen-size-vlv/releases/tag/v1.2.0) · [SourceForge](https://sourceforge.net/projects/screen-size-vlv/) · [Repo](https://github.com/VlV-515/screen-size-vlv)
+
+- **Angular Dojo VlV**
+  Plataforma de retos de Angular donde cada branch es una app real ya rota (routing, signals, RxJS, zoneless, performance, SSR, a11y); `npm run verify` certifica la solucion. CI con Jest y Playwright.
+  [Repo](https://github.com/VlV-515/Angular-Dojo-VlV)
 
 - **Ecommerce Angular 17 Tailwind Stripe**
   Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.

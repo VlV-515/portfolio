@@ -101,6 +101,77 @@ const projects = [
     tags: ['Swift', 'SwiftUI', 'AppKit', 'Pomodoro', 'Local First', 'macOS']
   },
   {
+    title: 'ClaudioBar VlV',
+    type: 'macOS App',
+    description:
+      'Utilidad nativa de menu bar para macOS que muestra en vivo el porcentaje de uso de la sesion de 5 horas de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Lee estado desde un script Python companion via el hook statusLine; release publica v1.0.0 y mirror en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/claudio-bar-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/claudio-bar-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Menu Bar', 'Claude Code', 'macOS']
+  },
+  {
+    title: 'Dont Touch vlv',
+    type: 'macOS App',
+    description:
+      'App nativa de menu bar para macOS que bloquea teclado y mouse via Accessibility API y desbloquea solo con una secuencia propia. Incluye bloqueo automatico por inactividad, atajo global configurable, historial local de actividad y UI en ingles y espanol; release publica v1.0.0 y mirror en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/dont-touch-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/dont-touch-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Accessibility API', 'Input Lock', 'macOS']
+  },
+  {
+    title: 'Screen size vlv',
+    type: 'macOS App',
+    description:
+      'Gestor nativo de ventanas para macOS con atajos globales para mover la ventana activa a mitad izquierda, derecha, centro o pantalla completa util. Incluye overlay visual de confirmacion, atajos personalizables, deteccion por pantalla y UI en ingles y espanol; release publica v1.2.0 y mirror en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/screen-size-vlv/releases/tag/v1.2.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/screen-size-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/screen-size-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Carbon', 'Window Manager', 'macOS']
+  },
+  {
+    title: 'Angular Dojo VlV',
+    type: 'Angular 20 + CI',
+    description:
+      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratacion, accesibilidad. npm run verify certifica si el reto quedo resuelto, con catalogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
+    repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
+    tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
+  },
+  {
     title: 'clasecitas-vlv',
     type: 'NPM + CSS Toolkit',
     description:
@@ -205,7 +276,7 @@ const skillGroups = [
   {
     title: 'Apps nativas macOS',
     description: 'Herramientas personales nativas, locales y publicadas con releases verificables para macOS.',
-    items: ['Swift', 'AppKit', 'SwiftUI', 'Core Data', 'NSPasteboard', 'Keychain', 'Menu Bar Apps', 'SourceForge Mirrors']
+    items: ['Swift', 'AppKit', 'SwiftUI', 'Core Data', 'NSPasteboard', 'Keychain', 'Accessibility API', 'Carbon', 'Menu Bar Apps', 'Window Management', 'SourceForge Mirrors']
   },
   {
     title: 'IA aplicada y AI Engineering',
