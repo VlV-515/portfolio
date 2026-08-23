@@ -31,7 +31,7 @@
 
 ## Sobre mi
 
-Soy desarrollador fullstack con mas de 10 anos de experiencia construyendo producto para operacion y negocio real. Mi especialidad esta en frontend, pero tambien trabajo backend con Python, TypeScript sobre Node.js y PHP para resolver flujos end-to-end.
+Soy desarrollador fullstack con más de 10 años de experiencia construyendo producto para operacion y negocio real. Mi especialidad esta en frontend, pero tambien trabajo backend con Python, TypeScript sobre Node.js y PHP para resolver flujos end-to-end.
 
 - Especialidad en frontend con Angular y TypeScript
 - Backend productivo con Python, TypeScript sobre Node.js y PHP
@@ -72,7 +72,7 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 - Migracion progresiva de Angular 6 a Angular 19 en ERP, incluyendo el paso completo a standalone components
 - Liderazgo y desarrollo de la aplicacion SCM en Angular 19, migrada a Angular 21
 - Migracion y mantenimiento de e-commerce de Angular 7 a Angular 14
-- Mejora de ciclos de desarrollo en mas del 60%
+- Mejora de ciclos de desarrollo en más del 60%
 - Apps hibridas mobile-first con Ionic + Angular
 - Diseno y publicacion de plataformas Angular (Angular Dojo VlV, Angular Testing Lab VlV), utilidades npm y apps nativas macOS
 
