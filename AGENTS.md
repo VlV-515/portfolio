@@ -57,23 +57,22 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 
 ## Activos mostrados
 
-- `clasecitas-vlv`
-- `clasecitas-vlv-types`
-- `clasecitas-vlv-page`
+Divididos en dos grupos en el sitio (`main.js`): Destacados (grid superior) y Mas proyectos (grid inferior).
+
+Destacados:
+- `Angular Dojo VlV`
+- `Angular Testing Lab VlV`
+- `code-kit-vlv`
+- `ClaudioBar VlV`
+
+Mas proyectos:
 - `Paste-vlv`
 - `LockApp-vlv`
 - `Caffeine vlv`
 - `Tomito vlv`
-- `ClaudioBar VlV`
 - `Dont Touch vlv`
 - `Screen size vlv`
-- `Angular Dojo VlV`
-- `Ecommerce Angular 17 Tailwind Stripe`
-- `Ecommerce Demo Angular`
-- `Motociclistas Angular`
-- `Demo Shopping Cart`
-- `GIF Search React Vite`
-- `Rick and Morty React UseContext`
+- `clasecitas-vlv` (incluye `clasecitas-vlv-types` y `clasecitas-vlv-page` como links dentro de la misma tarjeta)
 
 ## Notas
 
@@ -83,6 +82,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 - `Tomito vlv` se muestra como app macOS con release GitHub y ZIP macOS publicado en SourceForge.
 - `ClaudioBar VlV`, `Dont Touch vlv` y `Screen size vlv` siguen el mismo patron: release GitHub con tag y mirror en SourceForge.
 - `Angular Dojo VlV` se muestra como proyecto Angular con CI (Jest y Playwright), sin release ni SourceForge.
+- `Angular Testing Lab VlV` es nombre de exhibicion para el repo `angular-19-testing-jest-playwright` (la URL del repo no cambia); se muestra como plataforma de aprendizaje de testing Angular 19 (Jest + Playwright), sin release ni SourceForge.
+- Los 6 proyectos de practica/tutorial (Ecommerce Angular 17 Tailwind Stripe, Ecommerce Demo Angular, Motociclistas Angular, Demo Shopping Cart, GIF Search React Vite, Rick and Morty React UseContext) se retiraron del sitio: tenian `demo: ''` sin URL viva y evidencia de reclutamiento indica que proyectos tutorial mezclados con trabajo real bajan el impacto general del portfolio. Sus repos siguen existiendo en GitHub, solo no se listan aqui.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`
 - El copy publico debe posicionar el perfil como fullstack con especialidad en frontend.

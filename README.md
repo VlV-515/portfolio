@@ -69,11 +69,12 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 
 ### Impacto tecnico
 
-- Migracion progresiva de Angular 6 a Angular 19 en ERP
+- Migracion progresiva de Angular 6 a Angular 19 en ERP, incluyendo el paso completo a standalone components
+- Liderazgo y desarrollo de la aplicacion SCM en Angular 19, migrada a Angular 21
 - Migracion y mantenimiento de e-commerce de Angular 7 a Angular 14
 - Mejora de ciclos de desarrollo en mas del 60%
 - Apps hibridas mobile-first con Ionic + Angular
-- Diseno y publicacion de utilidades npm, apps nativas macOS y documentacion publica
+- Diseno y publicacion de plataformas Angular (Angular Dojo VlV, Angular Testing Lab VlV), utilidades npm y apps nativas macOS
 
 ### Enfoque actual
 
@@ -88,11 +89,23 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
 
 `AI Agents` `Agent Engineering` `Harness Engineering` `Loop Engineering` `MCP` `SDD` `TDD` `Prompting` `Automation`
 
-## Open source y productos publicados
+## Proyectos
+
+- **Angular Dojo VlV**
+  Plataforma de retos de Angular donde cada branch es una app real ya rota (routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratacion, accesibilidad). `npm run verify` certifica si el reto quedo resuelto, con catalogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.
+  [Repo](https://github.com/VlV-515/Angular-Dojo-VlV)
+
+- **Angular Testing Lab VlV**
+  Plataforma educativa progresiva para testear Angular 19 con Jest y Playwright: guia de migracion desde Karma/Jasmine y 8 categorias de unit testing en dificultad creciente (pipes, validators, services, guards, resolvers, interceptors, directives, componentes), mas suite e2e complementaria.
+  [Repo](https://github.com/VlV-515/angular-19-testing-jest-playwright)
 
 - **code-kit-vlv**
   CLI publicado en npm para preparar repos AI-ready con guias para Codex, Claude y OpenCode, presets por stack, Caveman en modo ultra, politicas npm conservadoras y sincronizacion segura de archivos gestionados.
   [npm](https://www.npmjs.com/package/code-kit-vlv) · [Repo](https://github.com/VlV-515/code-kit-vlv)
+
+- **ClaudioBar VlV**
+  Utilidad nativa de menu bar para macOS que muestra en vivo el uso de sesion de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Publicado como release `v1.0.0` con mirror en SourceForge.
+  [Release](https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/claudio-bar-vlv/) · [Repo](https://github.com/VlV-515/claudio-bar-vlv)
 
 - **Paste-vlv**
   Clipboard manager nativo para macOS, local-first y gratuito. Guarda historial local, busqueda rapida, pinboards, favoritos, direct paste y backup JSON compacto de textos agrupados. Publicado como release `v1.0.0` con mirror en SourceForge.
@@ -110,10 +123,6 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
   Temporizador Pomodoro nativo, local-first y privado para macOS, con sesiones y descansos configurables, controles de menu bar, notificaciones y soporte sleep/wake. Publicado como release `v1.0.0` en GitHub y SourceForge.
   [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
 
-- **ClaudioBar VlV**
-  Utilidad nativa de menu bar para macOS que muestra en vivo el uso de sesion de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Publicado como release `v1.0.0` con mirror en SourceForge.
-  [Release](https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/claudio-bar-vlv/) · [Repo](https://github.com/VlV-515/claudio-bar-vlv)
-
 - **Dont Touch vlv**
   App nativa de menu bar para macOS que bloquea teclado y mouse via Accessibility API y desbloquea solo con una secuencia propia, con bloqueo automatico por inactividad e historial local de actividad. Publicado como release `v1.0.0` con mirror en SourceForge.
   [Release](https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/dont-touch-vlv/) · [Repo](https://github.com/VlV-515/dont-touch-vlv)
@@ -123,74 +132,8 @@ Diseno flujos de trabajo con IA para acelerar exploracion tecnica, implementacio
   [Release](https://github.com/VlV-515/screen-size-vlv/releases/tag/v1.2.0) · [SourceForge](https://sourceforge.net/projects/screen-size-vlv/) · [Repo](https://github.com/VlV-515/screen-size-vlv)
 
 - **clasecitas-vlv**
-  Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap.
-  [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Repo](https://github.com/VlV-515/clasecitas-vlv) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/)
-
-- **clasecitas-vlv-types**
-  Paquete companion con helpers para TypeScript y tipos de class names, pensado para mantenerse alineado por version con `clasecitas-vlv`.
-  [npm](https://www.npmjs.com/package/clasecitas-vlv-types)
-
-- **clasecitas-vlv-page**
-  Showcase y cheatsheet publico del paquete, con catalogo buscable generado desde el bundle real publicado, ejemplos live y referencia de prefijos responsive, colores y utilidades.
-  [Sitio](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv-page)
-
-## Proyectos destacados
-
-- **clasecitas-vlv**
-  Toolkit CSS utility-first publicado en npm, con companion types para TypeScript y cheatsheet publico para exploracion de clases, grid y responsive utilities.
-  [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Types](https://www.npmjs.com/package/clasecitas-vlv-types) · [Cheat sheet](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv)
-
-- **code-kit-vlv**
-  CLI npm para iniciar repos con contexto operativo para agentes, documentacion de comandos, reglas de seguridad y presets para stacks web, Node y macOS Swift.
-  [npm](https://www.npmjs.com/package/code-kit-vlv) · [Repo](https://github.com/VlV-515/code-kit-vlv)
-
-- **Paste-vlv**
-  App nativa macOS para gestionar clipboard history local con busqueda, pinboards, favoritos, direct paste y backups JSON de grupos de texto.
-  [Release](https://github.com/VlV-515/paste-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/paste-vlv/) · [Repo](https://github.com/VlV-515/paste-vlv)
-
-- **LockApp-vlv**
-  App nativa macOS para proteger apps seleccionadas con password, lista local de apps protegidas, Keychain y overlay full-screen.
-  [Release](https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/lockapp-vlv/) · [Repo](https://github.com/VlV-515/lockapp-vlv)
-
-- **Caffeine vlv**
-  App nativa de menu bar para mantener macOS despierto, con modos Full y Medium para ajustar la energia de pantalla.
-  [Release](https://github.com/VlV-515/caffeine-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/caffeine-vlv/) · [Repo](https://github.com/VlV-515/caffeine-vlv)
-
-- **Tomito vlv**
-  Temporizador Pomodoro nativo y local-first para macOS, con ciclos configurables, menu bar, notificaciones y control de sleep/wake.
-  [Release](https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/tomito-vlv/) · [Repo](https://github.com/VlV-515/tomito-vlv)
-
-- **ClaudioBar VlV**
-  App nativa macOS de menu bar para monitorear en vivo el uso de sesion de Claude Code y configurar alertas por umbral con sonido y/o accion de shell.
-  [Release](https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/claudio-bar-vlv/) · [Repo](https://github.com/VlV-515/claudio-bar-vlv)
-
-- **Dont Touch vlv**
-  App nativa macOS que bloquea teclado y mouse via Accessibility API, con desbloqueo por secuencia propia, bloqueo automatico por inactividad e historial local de actividad.
-  [Release](https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0) · [SourceForge](https://sourceforge.net/projects/dont-touch-vlv/) · [Repo](https://github.com/VlV-515/dont-touch-vlv)
-
-- **Screen size vlv**
-  Gestor nativo de ventanas macOS con atajos globales para tiling izquierda/derecha, centrado y pantalla completa util, con overlay visual y atajos personalizables.
-  [Release](https://github.com/VlV-515/screen-size-vlv/releases/tag/v1.2.0) · [SourceForge](https://sourceforge.net/projects/screen-size-vlv/) · [Repo](https://github.com/VlV-515/screen-size-vlv)
-
-- **Angular Dojo VlV**
-  Plataforma de retos de Angular donde cada branch es una app real ya rota (routing, signals, RxJS, zoneless, performance, SSR, a11y); `npm run verify` certifica la solucion. CI con Jest y Playwright.
-  [Repo](https://github.com/VlV-515/Angular-Dojo-VlV)
-
-- **Ecommerce Angular 17 Tailwind Stripe**
-  Frontend de e-commerce con Angular 17, Tailwind y TypeScript, enfocado en conversion y flujo visual de compra.
-  [Repo](https://github.com/VlV-515/ecommerce-angular17-tailwind-stripe)
-
-- **Motociclistas Angular**
-  Simulacion de asignacion de recursos por bloques de 30 minutos, con logica operativa clara y feedback visual.
-  [Repo](https://github.com/VlV-515/2-Motociclistas-Angular)
-
-- **GIF Search React Vite**
-  Buscador de GIFs con React y Vite orientado a consumo de APIs y respuesta rapida en frontend.
-  [Repo](https://github.com/VlV-515/demo-gif-search-react-test-vite)
-
-- **Rick and Morty React UseContext**
-  Aplicacion React con integracion de API y organizacion de estado usando context.
-  [Repo](https://github.com/VlV-515/rick-and-morty-react-useContext)
+  Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm para consumo directo por CSS o SCSS, sin depender de Tailwind CSS ni Bootstrap. Incluye el paquete companion `clasecitas-vlv-types` (helpers y tipos de class names para TypeScript) y un cheat sheet publico (`clasecitas-vlv-page`) con catalogo buscable, ejemplos live y referencia de prefijos responsive.
+  [npm](https://www.npmjs.com/package/clasecitas-vlv) · [Types](https://www.npmjs.com/package/clasecitas-vlv-types) · [Cheat Sheet](https://vlv-515.github.io/clasecitas-vlv-page/) · [Repo](https://github.com/VlV-515/clasecitas-vlv)
 
 ## Contacto
 

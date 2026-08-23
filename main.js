@@ -1,4 +1,20 @@
-const projects = [
+const featuredProjects = [
+  {
+    title: 'Angular Dojo VlV',
+    type: 'Angular 20 + CI',
+    description:
+      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratacion, accesibilidad. npm run verify certifica si el reto quedo resuelto, con catalogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
+    repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
+    tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
+  },
+  {
+    title: 'Angular Testing Lab VlV',
+    type: 'Angular 19 + Testing',
+    description:
+      'Plataforma educativa progresiva para testear Angular 19 con Jest y Playwright: guia de migracion desde Karma/Jasmine, 8 categorias de unit testing en dificultad creciente (pipes, validators, services, guards, resolvers, interceptors, directives, componentes) y suite e2e complementaria.',
+    repo: 'https://github.com/VlV-515/angular-19-testing-jest-playwright',
+    tags: ['Angular 19', 'Jest', 'Playwright', 'Testing Library', 'Testing']
+  },
   {
     title: 'code-kit-vlv',
     type: 'NPM CLI',
@@ -16,6 +32,30 @@ const projects = [
     ],
     tags: ['npm', 'CLI', 'TypeScript', 'AI Agents', 'Codex', 'Claude', 'OpenCode']
   },
+  {
+    title: 'ClaudioBar VlV',
+    type: 'macOS App',
+    description:
+      'Utilidad nativa de menu bar para macOS que muestra en vivo el porcentaje de uso de la sesion de 5 horas de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Lee estado desde un script Python companion via el hook statusLine; release publica v1.0.0 y mirror en SourceForge.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'SourceForge',
+        href: 'https://sourceforge.net/projects/claudio-bar-vlv/'
+      },
+      {
+        label: 'Codigo',
+        href: 'https://github.com/VlV-515/claudio-bar-vlv'
+      }
+    ],
+    tags: ['Swift', 'AppKit', 'SwiftUI', 'Menu Bar', 'Claude Code', 'macOS']
+  }
+];
+
+const otherProjects = [
   {
     title: 'Paste-vlv',
     type: 'macOS App',
@@ -101,27 +141,6 @@ const projects = [
     tags: ['Swift', 'SwiftUI', 'AppKit', 'Pomodoro', 'Local First', 'macOS']
   },
   {
-    title: 'ClaudioBar VlV',
-    type: 'macOS App',
-    description:
-      'Utilidad nativa de menu bar para macOS que muestra en vivo el porcentaje de uso de la sesion de 5 horas de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Lee estado desde un script Python companion via el hook statusLine; release publica v1.0.0 y mirror en SourceForge.',
-    links: [
-      {
-        label: 'Release',
-        href: 'https://github.com/VlV-515/claudio-bar-vlv/releases/tag/v1.0.0'
-      },
-      {
-        label: 'SourceForge',
-        href: 'https://sourceforge.net/projects/claudio-bar-vlv/'
-      },
-      {
-        label: 'Codigo',
-        href: 'https://github.com/VlV-515/claudio-bar-vlv'
-      }
-    ],
-    tags: ['Swift', 'AppKit', 'SwiftUI', 'Menu Bar', 'Claude Code', 'macOS']
-  },
-  {
     title: 'Dont Touch vlv',
     type: 'macOS App',
     description:
@@ -164,14 +183,6 @@ const projects = [
     tags: ['Swift', 'AppKit', 'SwiftUI', 'Carbon', 'Window Manager', 'macOS']
   },
   {
-    title: 'Angular Dojo VlV',
-    type: 'Angular 20 + CI',
-    description:
-      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratacion, accesibilidad. npm run verify certifica si el reto quedo resuelto, con catalogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
-    repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
-    tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
-  },
-  {
     title: 'clasecitas-vlv',
     type: 'NPM + CSS Toolkit',
     description:
@@ -195,60 +206,6 @@ const projects = [
       }
     ],
     tags: ['npm', 'CSS Utilities', 'SCSS', 'TypeScript Types', 'Grid System']
-  },
-  {
-    title: 'Ecommerce Angular 17 Tailwind Stripe',
-    type: 'Angular 17',
-    description:
-      'Frontend de e-commerce con Angular 17, Tailwind y flujo visual de compra. Muestra estructura moderna, routing y UI enfocada a conversion.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/ecommerce-angular17-tailwind-stripe',
-    tags: ['Angular 17', 'Tailwind', 'TypeScript', 'Stripe UI']
-  },
-  {
-    title: 'Ecommerce Demo Angular',
-    type: 'Angular 13',
-    description:
-      'Demo completa de e-commerce con Angular Material, Bootstrap, carrito y exploracion de productos.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/ecommerce-demo-angular',
-    tags: ['Angular', 'Angular Material', 'Bootstrap', 'Toastr']
-  },
-  {
-    title: 'Motociclistas Angular',
-    type: 'Angular 12',
-    description:
-      'Simulacion de asignacion de recursos por bloques de tiempo de 30 minutos. Resuelve una logica operativa clara con feedback visual.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/2-Motociclistas-Angular',
-    tags: ['Angular', 'Scheduling Logic', 'UI Feedback', 'Responsive']
-  },
-  {
-    title: 'Demo Shopping Cart',
-    type: 'Angular 12',
-    description:
-      'Carrito de compras demo con enfoque en flujo SPA, estado visual y experiencia de compra simplificada.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/demo-shoping-cart',
-    tags: ['Angular', 'Cart Flow', 'SPA', 'TypeScript']
-  },
-  {
-    title: 'GIF Search React Vite',
-    type: 'React',
-    description:
-      'Buscador de GIFs construido con React y Vite, orientado a consumo de APIs y respuesta rapida en frontend.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/demo-gif-search-react-test-vite',
-    tags: ['React', 'Vite', 'API Consumption', 'JavaScript']
-  },
-  {
-    title: 'Rick and Morty React UseContext',
-    type: 'React',
-    description:
-      'Aplicacion React que consume la API de Rick and Morty usando contexto para organizacion de estado y navegacion de datos.',
-    demo: '',
-    repo: 'https://github.com/VlV-515/rick-and-morty-react-useContext',
-    tags: ['React', 'useContext', 'Axios', 'API Integration']
   }
 ];
 
@@ -256,12 +213,12 @@ const skillGroups = [
   {
     title: 'Frontend Core',
     description: 'Mi stack principal para construir interfaces mantenibles, escalables y responsivas.',
-    items: ['Angular', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Tailwind CSS', 'Bootstrap']
+    items: ['Angular', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'SCSS', 'Tailwind CSS', 'Bootstrap', 'Signals', 'SSR']
   },
   {
     title: 'Frameworks y Ecosistema',
     description: 'Herramientas y librerías que utilizo para entregar productos modernos.',
-    items: ['Angular Material', 'Ionic', 'React', 'Vite', 'RxJS', 'Firebase', 'Stripe UI']
+    items: ['Angular Material', 'Ionic', 'React', 'Vite', 'RxJS', 'Firebase']
   },
   {
     title: 'Testing',
@@ -285,20 +242,19 @@ const skillGroups = [
   }
 ];
 
+const featuredProjectsGrid = document.querySelector('#featured-projects-grid');
 const projectsGrid = document.querySelector('#projects-grid');
 const skillsGrid = document.querySelector('#skills-grid');
 
-projectsGrid.innerHTML = projects
-  .map(
-    (project) => {
-      const links = project.links
-        ? project.links
-        : [
-            ...(project.demo ? [{ label: 'Demo', href: project.demo }] : []),
-            ...(project.repo ? [{ label: 'Codigo', href: project.repo }] : [])
-          ];
+function renderProjectCard(project) {
+  const links = project.links
+    ? project.links
+    : [
+        ...(project.demo ? [{ label: 'Demo', href: project.demo }] : []),
+        ...(project.repo ? [{ label: 'Codigo', href: project.repo }] : [])
+      ];
 
-      return `
+  return `
       <article class="project-card reveal">
         <div class="project-header">
           <div>
@@ -320,9 +276,10 @@ projectsGrid.innerHTML = projects
         </div>
       </article>
     `;
-    }
-  )
-  .join('');
+}
+
+featuredProjectsGrid.innerHTML = featuredProjects.map(renderProjectCard).join('');
+projectsGrid.innerHTML = otherProjects.map(renderProjectCard).join('');
 
 skillsGrid.innerHTML = skillGroups
   .map(

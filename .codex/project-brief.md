@@ -16,7 +16,7 @@ Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proye
 - Deploy workflow: `.github/workflows/deploy.yml`
 - Base Vite obligatoria: `'/portfolio/'`
 - Hook local: `.husky/pre-commit`
-- Superficie publica destacada: portfolio personal + referencia a `clasecitas-vlv`, `clasecitas-vlv-types`, `clasecitas-vlv-page`, `Caffeine vlv`, `Tomito vlv`, `ClaudioBar VlV`, `Dont Touch vlv`, `Screen size vlv` y `Angular Dojo VlV`
+- Superficie publica destacada: portfolio personal, dividido en Destacados (`Angular Dojo VlV`, `Angular Testing Lab VlV`, `code-kit-vlv`, `ClaudioBar VlV`) y Mas proyectos (`Paste-vlv`, `LockApp-vlv`, `Caffeine vlv`, `Tomito vlv`, `Dont Touch vlv`, `Screen size vlv`, `clasecitas-vlv` + `clasecitas-vlv-types` + `clasecitas-vlv-page`)
 
 ## Superficie editable
 
