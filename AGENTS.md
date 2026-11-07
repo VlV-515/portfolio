@@ -52,7 +52,7 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 - Mantener `base: '/portfolio/'` en `vite.config.js`
 - Validar cambios visuales o de contenido con `npm run build`
 - Si cambian proyectos, skills o URLs, sincronizar `main.js`, `README.md`, `AGENTS.md` y `.codex/`
-- Kore Ingenieria puede aparecer como empleador y rol; el backend se describe solo como "backend en Go". Sin arquitectura interna, nombres de modulos, endpoints ni codigo del empleador
+- Kore Tecnología puede aparecer como empleador y rol; el backend se describe solo como "backend en Go". Sin arquitectura interna, nombres de modulos, endpoints ni codigo del empleador
 - No agregar fuente editable del curriculum; los artefactos publicos del CV pueden vivir en `public/` mientras sigan enlazados
 
 ## Activos mostrados
