@@ -16,7 +16,7 @@ Presentar experiencia fullstack (Angular, TypeScript y Go), IA aplicada, proyect
 - Deploy workflow: `.github/workflows/deploy.yml`
 - Base Vite obligatoria: `'/portfolio/'`
 - Hook local: `.husky/pre-commit`
-- Superficie publica destacada: portfolio personal, dividido en Destacados (`Angular Dojo VlV`, `Dojo Backend Go`, `ngx-mat-datetime-panel`, `code-kit-vlv`) y Mas proyectos (`Angular Testing Lab VlV`, `ClaudioBar VlV`, `2FA-vlv`, `Paste-vlv`, `LockApp-vlv`, `Caffeine vlv`, `Tomito vlv`, `Dont Touch vlv`, `Screen size vlv`, `clasecitas-vlv` + `clasecitas-vlv-types` + `clasecitas-vlv-page`)
+- Superficie publica destacada: portfolio personal, dividido en Destacados (`Angular Dojo VlV`, `Dojo Frontend Angular`, `Dojo Backend Go`, `ngx-mat-datetime-panel`) y Mas proyectos (`code-kit-vlv`, `Angular Testing Lab VlV`, `ClaudioBar VlV`, `2FA-vlv`, `Paste-vlv`, `LockApp-vlv`, `Caffeine vlv`, `Tomito vlv`, `Dont Touch vlv`, `Screen size vlv`, `clasecitas-vlv` + `clasecitas-vlv-types` + `clasecitas-vlv-page`)
 
 ## Superficie editable
 

@@ -89,8 +89,12 @@ Diseño flujos de trabajo con IA para acelerar exploración técnica, implementa
 ## Proyectos
 
 - **Angular Dojo VlV**
-  Plataforma de retos de Angular donde cada branch es una app real ya rota (routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad). `npm run verify` certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.
+  Dojo para entrenar y medir tu nivel real en Angular: cada branch es una app real ya rota (routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad). `npm run verify` certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.
   [Repo](https://github.com/VlV-515/Angular-Dojo-VlV)
+
+- **Dojo Frontend Angular**
+  Dojo para aprender cómo se trabaja Angular en una empresa, complemento del Dojo Backend Go: estructura core/shared/features, interceptores, guards de permisos, servicios HTTP tipados, formularios reactivos, signals y Angular Material, con pruebas y CI, guiado por retos que empiezan en rojo y terminan en verde.
+  [Repo](https://github.com/VlV-515/dojo_frontend_angular)
 
 - **Dojo Backend Go**
   Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.

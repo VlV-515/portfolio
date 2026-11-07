@@ -61,11 +61,12 @@ Divididos en dos grupos en el sitio (`main.js`): Destacados (grid superior) y Ma
 
 Destacados:
 - `Angular Dojo VlV`
+- `Dojo Frontend Angular`
 - `Dojo Backend Go`
 - `ngx-mat-datetime-panel`
-- `code-kit-vlv`
 
 Mas proyectos:
+- `code-kit-vlv`
 - `Angular Testing Lab VlV`
 - `ClaudioBar VlV`
 - `2FA-vlv`
@@ -92,7 +93,8 @@ Mas proyectos:
 - El copy publico debe posicionar el perfil como Fullstack Developer: Angular, TypeScript y Go.
 - Al resumir stack, backend principal `Go`; experiencia adicional en `Python`, `TypeScript/Node.js`, `PHP` y `Java`.
 - Copy en espanol es-MX con tildes correctas; nombre publico "Jorge Ignacio Tirado".
-- `Dojo Backend Go` es repo publico (`VlV-515/dojo_backend_go`); `dojo_frontend_angular` NO se lista hasta que su repo sea publico (hoy responde 404).
+- Paleta: Ayu Dark (favorita del autor). Tokens en `index.html` (config Tailwind) y `styles.css`: fondo `#0b0e14`, panel `#0f131a`, profundo `#151a23`, texto `#bfbdb6`/`#e6e1cf`, acento `signal` `#e6b450`, `glow` `#59c2ff`, `ember` `#ff8f40`, verde `#aad94c` (tarjeta WhatsApp). No reintroducir los azules/teal anteriores.
+- `Dojo Backend Go` es repo publico (`VlV-515/dojo_backend_go`); `dojo_frontend_angular` tambien es publico (verificado 2026-11-07). Diferencia de los dojos: `Angular Dojo VlV` sirve para entrenar y medir el nivel real en Angular; `Dojo Frontend Angular` ensena como es Angular corporativo y complementa a `Dojo Backend Go`.
 - `2FA-vlv` no tiene proyecto SourceForge publico; solo release GitHub.
 - Versiones macOS verificadas 2026-11-07: Paste v1.8.0, LockApp v1.2.0, Tomito v1.1.0, Dont Touch v1.1.1, Screen size v1.2.0, Caffeine v1.0.0, 2FA-vlv v1.0.0.
 - En IA aplicada, priorizar `agent engineering`, `harness engineering`, `loop engineering`, `SDD` y `TDD`; evitar mencionar herramientas concretas cuando no aporten valor.

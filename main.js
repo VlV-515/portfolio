@@ -3,9 +3,17 @@ const featuredProjects = [
     title: 'Angular Dojo VlV',
     type: 'Angular 20 + CI',
     description:
-      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad. npm run verify certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
+      'Dojo para entrenar y medir tu nivel real en Angular: cada branch es una app real ya rota en un tema distinto (routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad). npm run verify certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
     repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
     tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
+  },
+  {
+    title: 'Dojo Frontend Angular',
+    type: 'Angular Corporativo + Curso',
+    description:
+      'Dojo para aprender cómo se trabaja Angular en una empresa, complemento del Dojo Backend Go: construyes y extiendes una app con estructura de equipo real (core/shared/features, interceptores, guards de permisos, servicios HTTP tipados, formularios reactivos, signals y Angular Material), con pruebas y CI, guiado por retos que empiezan en rojo y terminan en verde.',
+    repo: 'https://github.com/VlV-515/dojo_frontend_angular',
+    tags: ['Angular', 'TypeScript', 'Signals', 'RxJS', 'Angular Material', 'Jest', 'Playwright']
   },
   {
     title: 'Dojo Backend Go',
@@ -35,12 +43,15 @@ const featuredProjects = [
       }
     ],
     tags: ['Angular 21', 'Angular Material', 'TypeScript', 'npm', 'Jest']
-  },
+  }
+];
+
+const otherProjects = [
   {
     title: 'code-kit-vlv',
     type: 'NPM CLI',
     description:
-      'CLI publicado en npm para convertir repos nuevos en workspaces AI-ready con guias para Codex, Claude y OpenCode, presets para distintos stacks, Caveman en modo ultra, politicas npm conservadoras y sincronizacion segura de archivos gestionados.',
+      'CLI publicado en npm para convertir repos nuevos en workspaces AI-ready con guías para Codex, Claude y OpenCode, presets para distintos stacks, Caveman en modo ultra, políticas npm conservadoras y sincronización segura de archivos gestionados.',
     links: [
       {
         label: 'npm',
@@ -52,10 +63,7 @@ const featuredProjects = [
       }
     ],
     tags: ['npm', 'CLI', 'TypeScript', 'AI Agents', 'Codex', 'Claude', 'OpenCode']
-  }
-];
-
-const otherProjects = [
+  },
   {
     title: 'Angular Testing Lab VlV',
     type: 'Angular 19 + Testing',
@@ -313,7 +321,7 @@ function renderProjectCard(project) {
             <h3 class="mt-4 text-2xl font-bold text-white">${project.title}</h3>
           </div>
         </div>
-        <p class="text-sm leading-7 text-slate-200/78">${project.description}</p>
+        <p class="text-sm leading-7 text-mist/80">${project.description}</p>
         <div class="tag-list">
           ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
         </div>
@@ -336,8 +344,8 @@ skillsGrid.innerHTML = skillGroups
   .map(
     (group) => `
       <article class="skill-card reveal">
-        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-sky-300">${group.title}</p>
-        <p class="mt-4 text-base leading-7 text-slate-200/78">${group.description}</p>
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-glow">${group.title}</p>
+        <p class="mt-4 text-base leading-7 text-mist/80">${group.description}</p>
         <div class="skill-chip-wrap">
           ${group.items.map((item) => `<span class="skill-chip">${item}</span>`).join('')}
         </div>

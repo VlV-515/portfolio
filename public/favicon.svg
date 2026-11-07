@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#08111f" />
+  <rect width="64" height="64" rx="14" fill="#0b0e14" />
   <text
     x="32"
     y="34"
@@ -8,6 +8,6 @@
     font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif"
     font-weight="700"
     font-size="26"
-    fill="#49c6a5"
+    fill="#e6b450"
   >IT</text>
 </svg>
