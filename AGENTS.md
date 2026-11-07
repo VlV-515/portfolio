@@ -4,7 +4,7 @@
 
 ## Objetivo del workspace
 
-Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tirado** y los assets publicados del sitio.
+Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignacio Tirado** y los assets publicados del sitio.
 
 ## Sitio principal
 
@@ -52,7 +52,7 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 - Mantener `base: '/portfolio/'` en `vite.config.js`
 - Validar cambios visuales o de contenido con `npm run build`
 - Si cambian proyectos, skills o URLs, sincronizar `main.js`, `README.md`, `AGENTS.md` y `.codex/`
-- No mezclar branding o contexto de Kore/ERP en este repo
+- Kore Ingenieria puede aparecer como empleador y rol; el backend se describe solo como "backend en Go". Sin arquitectura interna, nombres de modulos, endpoints ni codigo del empleador
 - No agregar fuente editable del curriculum; los artefactos publicos del CV pueden vivir en `public/` mientras sigan enlazados
 
 ## Activos mostrados
@@ -60,12 +60,15 @@ Este repositorio contiene exclusivamente el portfolio personal de **Ignacio Tira
 Divididos en dos grupos en el sitio (`main.js`): Destacados (grid superior) y Mas proyectos (grid inferior).
 
 Destacados:
+- `Dojo Backend Go`
 - `Angular Dojo VlV`
-- `Angular Testing Lab VlV`
+- `ngx-mat-datetime-panel`
 - `code-kit-vlv`
-- `ClaudioBar VlV`
 
 Mas proyectos:
+- `Angular Testing Lab VlV`
+- `ClaudioBar VlV`
+- `2FA-vlv`
 - `Paste-vlv`
 - `LockApp-vlv`
 - `Caffeine vlv`
@@ -86,6 +89,10 @@ Mas proyectos:
 - Los 6 proyectos de practica/tutorial (Ecommerce Angular 17 Tailwind Stripe, Ecommerce Demo Angular, Motociclistas Angular, Demo Shopping Cart, GIF Search React Vite, Rick and Morty React UseContext) se retiraron del sitio: tenian `demo: ''` sin URL viva y evidencia de reclutamiento indica que proyectos tutorial mezclados con trabajo real bajan el impacto general del portfolio. Sus repos siguen existiendo en GitHub, solo no se listan aqui.
 - Si se reactivan demos en linea, actualizar tambien `main.js` y `README.md`
 - Si cambia owner o nombre de repo, recalcular URL Pages y `base`
-- El copy publico debe posicionar el perfil como fullstack con especialidad en frontend.
-- Al resumir stack, mencionar backend en `Python`, `TypeScript/Node.js` y `PHP`.
+- El copy publico debe posicionar el perfil como Fullstack Developer: Angular, TypeScript y Go.
+- Al resumir stack, backend principal `Go`; experiencia adicional en `Python`, `TypeScript/Node.js`, `PHP` y `Java`.
+- Copy en espanol es-MX con tildes correctas; nombre publico "Jorge Ignacio Tirado".
+- `Dojo Backend Go` es repo publico (`VlV-515/dojo_backend_go`); `dojo_frontend_angular` NO se lista hasta que su repo sea publico (hoy responde 404).
+- `2FA-vlv` no tiene proyecto SourceForge publico; solo release GitHub.
+- Versiones macOS verificadas 2026-11-07: Paste v1.8.0, LockApp v1.2.0, Tomito v1.1.0, Dont Touch v1.1.1, Screen size v1.2.0, Caffeine v1.0.0, 2FA-vlv v1.0.0.
 - En IA aplicada, priorizar `agent engineering`, `harness engineering`, `loop engineering`, `SDD` y `TDD`; evitar mencionar herramientas concretas cuando no aporten valor.

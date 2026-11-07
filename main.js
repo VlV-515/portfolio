@@ -1,19 +1,40 @@
 const featuredProjects = [
   {
+    title: 'Dojo Backend Go',
+    type: 'Go + Curso Open Source',
+    description:
+      'Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: construyes y extiendes un microservicio con capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.',
+    repo: 'https://github.com/VlV-515/dojo_backend_go',
+    tags: ['Go', 'Gin', 'PostgreSQL', 'GORM', 'Docker', 'Swagger', 'TDD']
+  },
+  {
     title: 'Angular Dojo VlV',
     type: 'Angular 20 + CI',
     description:
-      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratacion, accesibilidad. npm run verify certifica si el reto quedo resuelto, con catalogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
+      'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad. npm run verify certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
     repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
     tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
   },
   {
-    title: 'Angular Testing Lab VlV',
-    type: 'Angular 19 + Testing',
+    title: 'ngx-mat-datetime-panel',
+    type: 'NPM + Angular Library',
     description:
-      'Plataforma educativa progresiva para testear Angular 19 con Jest y Playwright: guia de migracion desde Karma/Jasmine, 8 categorias de unit testing en dificultad creciente (pipes, validators, services, guards, resolvers, interceptors, directives, componentes) y suite e2e complementaria.',
-    repo: 'https://github.com/VlV-515/angular-19-testing-jest-playwright',
-    tags: ['Angular 19', 'Jest', 'Playwright', 'Testing Library', 'Testing']
+      'Librería publicada en npm: selector compacto de fecha y hora en un solo panel para Angular Material 21+, con modo rango, spinner digital de hora/minuto y adaptadores de fecha genéricos, sin depender de moment, date-fns ni luxon.',
+    links: [
+      {
+        label: 'npm',
+        href: 'https://www.npmjs.com/package/ngx-mat-datetime-panel'
+      },
+      {
+        label: 'Demo',
+        href: 'https://github.com/VlV-515/ngx-mat-datetime-panel-demo'
+      },
+      {
+        label: 'Código',
+        href: 'https://github.com/VlV-515/ngx-mat-datetime-panel'
+      }
+    ],
+    tags: ['Angular 21', 'Angular Material', 'TypeScript', 'npm', 'Jest']
   },
   {
     title: 'code-kit-vlv',
@@ -26,17 +47,28 @@ const featuredProjects = [
         href: 'https://www.npmjs.com/package/code-kit-vlv'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/code-kit-vlv'
       }
     ],
     tags: ['npm', 'CLI', 'TypeScript', 'AI Agents', 'Codex', 'Claude', 'OpenCode']
+  }
+];
+
+const otherProjects = [
+  {
+    title: 'Angular Testing Lab VlV',
+    type: 'Angular 19 + Testing',
+    description:
+      'Plataforma educativa progresiva para testear Angular 19 con Jest y Playwright: guía de migración desde Karma/Jasmine, 8 categorías de unit testing en dificultad creciente (pipes, validators, services, guards, resolvers, interceptors, directives, componentes) y suite e2e complementaria.',
+    repo: 'https://github.com/VlV-515/angular-19-testing-jest-playwright',
+    tags: ['Angular 19', 'Jest', 'Playwright', 'Testing Library', 'Testing']
   },
   {
     title: 'ClaudioBar VlV',
     type: 'macOS App',
     description:
-      'Utilidad nativa de menu bar para macOS que muestra en vivo el porcentaje de uso de la sesion de 5 horas de Claude Code y controla alertas configurables por umbral con sonido y/o accion de shell. Lee estado desde un script Python companion via el hook statusLine; release publica v1.0.0 y mirror en SourceForge.',
+      'Utilidad nativa de menu bar para macOS que muestra en vivo el porcentaje de uso de la sesión de 5 horas de Claude Code y controla alertas configurables por umbral con sonido y/o acción de shell. Lee estado desde un script Python companion vía el hook statusLine; release pública v1.0.0 y mirror en SourceForge.',
     links: [
       {
         label: 'Release',
@@ -47,31 +79,45 @@ const featuredProjects = [
         href: 'https://sourceforge.net/projects/claudio-bar-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/claudio-bar-vlv'
       }
     ],
     tags: ['Swift', 'AppKit', 'SwiftUI', 'Menu Bar', 'Claude Code', 'macOS']
-  }
-];
-
-const otherProjects = [
+  },
+  {
+    title: '2FA-vlv',
+    type: 'macOS App',
+    description:
+      'App nativa para macOS que muestra códigos de verificación en dos pasos (2FA) sin conexión, open source y simple: abres la app, haces clic en un código y lo pegas. Release pública v1.0.0 en GitHub.',
+    links: [
+      {
+        label: 'Release',
+        href: 'https://github.com/VlV-515/2FA-vlv/releases/tag/v1.0.0'
+      },
+      {
+        label: 'Código',
+        href: 'https://github.com/VlV-515/2FA-vlv'
+      }
+    ],
+    tags: ['Swift', 'SwiftUI', 'macOS', 'Offline', 'Privacy Tool', '2FA']
+  },
   {
     title: 'Paste-vlv',
     type: 'macOS App',
     description:
-      'Clipboard manager nativo para macOS, local-first y gratuito. Guarda historial de texto, links, imagenes y archivos en el equipo, ofrece busqueda rapida, pinboards, favoritos, backup JSON de textos agrupados y release publica v1.0.0.',
+      'Clipboard manager nativo para macOS, local-first y gratuito. Guarda historial de texto, links, imágenes y archivos en el equipo, ofrece búsqueda rápida, pinboards, favoritos, backup JSON de textos agrupados y release pública v1.8.0.',
     links: [
       {
         label: 'Release',
-        href: 'https://github.com/VlV-515/paste-vlv/releases/tag/v1.0.0'
+        href: 'https://github.com/VlV-515/paste-vlv/releases/tag/v1.8.0'
       },
       {
         label: 'SourceForge',
         href: 'https://sourceforge.net/projects/paste-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/paste-vlv'
       }
     ],
@@ -81,18 +127,18 @@ const otherProjects = [
     title: 'LockApp-vlv',
     type: 'macOS App',
     description:
-      'App nativa de menu bar para macOS que pone apps seleccionadas detras de una pantalla de password. Usa Swift, AppKit, SwiftUI, Keychain y preferencias locales, con release publica v1.0.0 y mirror en SourceForge.',
+      'App nativa de menu bar para macOS que pone apps seleccionadas detrás de una pantalla de password. Usa Swift, AppKit, SwiftUI, Keychain y preferencias locales, con release pública v1.2.0 y mirror en SourceForge.',
     links: [
       {
         label: 'Release',
-        href: 'https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.0.0'
+        href: 'https://github.com/VlV-515/lockapp-vlv/releases/tag/v1.2.0'
       },
       {
         label: 'SourceForge',
         href: 'https://sourceforge.net/projects/lockapp-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/lockapp-vlv'
       }
     ],
@@ -102,7 +148,7 @@ const otherProjects = [
     title: 'Caffeine vlv',
     type: 'macOS App',
     description:
-      'App nativa de menu bar para macOS que mantiene el equipo despierto con modos Full y Medium. Publicada como release v1.0.0 con ZIP y checksum SHA-256 en GitHub; codigo fuente v1.0.0 disponible en SourceForge.',
+      'App nativa de menu bar para macOS que mantiene el equipo despierto con modos Full y Medium. Publicada como release v1.0.0 con ZIP y checksum SHA-256 en GitHub; código fuente v1.0.0 disponible en SourceForge.',
     links: [
       {
         label: 'Release',
@@ -113,7 +159,7 @@ const otherProjects = [
         href: 'https://sourceforge.net/projects/caffeine-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/caffeine-vlv'
       }
     ],
@@ -123,18 +169,18 @@ const otherProjects = [
     title: 'Tomito vlv',
     type: 'macOS App',
     description:
-      'Temporizador Pomodoro nativo, local-first y privado para macOS. Incluye sesiones y descansos configurables, controles de menu bar, notificaciones, soporte sleep/wake y UI en ingles y espanol; release v1.0.0 en GitHub y SourceForge.',
+      'Temporizador Pomodoro nativo, local-first y privado para macOS. Incluye sesiones y descansos configurables, controles de menu bar, notificaciones, soporte sleep/wake y UI en inglés y español; release v1.1.0 en GitHub y SourceForge.',
     links: [
       {
         label: 'Release',
-        href: 'https://github.com/VlV-515/tomito-vlv/releases/tag/v1.0.0'
+        href: 'https://github.com/VlV-515/tomito-vlv/releases/tag/v1.1.0'
       },
       {
         label: 'SourceForge',
         href: 'https://sourceforge.net/projects/tomito-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/tomito-vlv'
       }
     ],
@@ -144,18 +190,18 @@ const otherProjects = [
     title: 'Dont Touch vlv',
     type: 'macOS App',
     description:
-      'App nativa de menu bar para macOS que bloquea teclado y mouse via Accessibility API y desbloquea solo con una secuencia propia. Incluye bloqueo automatico por inactividad, atajo global configurable, historial local de actividad y UI en ingles y espanol; release publica v1.0.0 y mirror en SourceForge.',
+      'App nativa de menu bar para macOS que bloquea teclado y mouse vía Accessibility API y desbloquea solo con una secuencia propia. Incluye bloqueo automatico por inactividad, atajo global configurable, historial local de actividad y UI en inglés y español; release pública v1.1.1 y mirror en SourceForge.',
     links: [
       {
         label: 'Release',
-        href: 'https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.0.0'
+        href: 'https://github.com/VlV-515/dont-touch-vlv/releases/tag/v1.1.1'
       },
       {
         label: 'SourceForge',
         href: 'https://sourceforge.net/projects/dont-touch-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/dont-touch-vlv'
       }
     ],
@@ -165,7 +211,7 @@ const otherProjects = [
     title: 'Screen size vlv',
     type: 'macOS App',
     description:
-      'Gestor nativo de ventanas para macOS con atajos globales para mover la ventana activa a mitad izquierda, derecha, centro o pantalla completa util. Incluye overlay visual de confirmacion, atajos personalizables, deteccion por pantalla y UI en ingles y espanol; release publica v1.2.0 y mirror en SourceForge.',
+      'Gestor nativo de ventanas para macOS con atajos globales para mover la ventana activa a mitad izquierda, derecha, centro o pantalla completa útil. Incluye overlay visual de confirmación, atajos personalizables, detección por pantalla y UI en inglés y español; release pública v1.2.0 y mirror en SourceForge.',
     links: [
       {
         label: 'Release',
@@ -176,7 +222,7 @@ const otherProjects = [
         href: 'https://sourceforge.net/projects/screen-size-vlv/'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/screen-size-vlv'
       }
     ],
@@ -186,7 +232,7 @@ const otherProjects = [
     title: 'clasecitas-vlv',
     type: 'NPM + CSS Toolkit',
     description:
-      'Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm, con paquete companion de types para TypeScript y un cheat sheet publico para explorar clases reales, prefijos responsive y ejemplos.',
+      'Toolkit CSS utility-first con naming tipo Tailwind y grid estilo Bootstrap 5. Publicado en npm, con paquete companion de types para TypeScript y un cheat sheet público para explorar clases reales, prefijos responsive y ejemplos.',
     links: [
       {
         label: 'Cheat Sheet',
@@ -201,7 +247,7 @@ const otherProjects = [
         href: 'https://www.npmjs.com/package/clasecitas-vlv-types'
       },
       {
-        label: 'Codigo',
+        label: 'Código',
         href: 'https://github.com/VlV-515/clasecitas-vlv'
       }
     ],
@@ -226,9 +272,14 @@ const skillGroups = [
     items: ['Jest', 'Playwright', 'Testing Library', 'Unit Testing', 'Functional Testing', 'E2E Testing']
   },
   {
-    title: 'Backend y Flujo de Trabajo',
-    description: 'Tecnologías con las que cierro flujos end-to-end, integración y operación del producto.',
-    items: ['Python', 'TypeScript', 'Node.js', 'PHP', 'MongoDB', 'MySQL', 'REST APIs', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing', 'GitHub Releases']
+    title: 'Backend (Go)',
+    description: 'Mi backend principal: APIs REST, datos y contenedores para cerrar flujos end-to-end con el frontend.',
+    items: ['Go', 'Gin', 'REST APIs', 'PostgreSQL', 'GORM', 'Docker', 'Swagger/OpenAPI', 'JWT']
+  },
+  {
+    title: 'Backend adicional y Flujo de Trabajo',
+    description: 'Experiencia adicional en otros lenguajes y herramientas de integración y operación del producto.',
+    items: ['TypeScript', 'Node.js', 'Python', 'PHP', 'Java', 'MongoDB', 'MySQL', 'Git', 'GitHub', 'Jira', 'SCRUM', 'npm', 'Package Publishing', 'GitHub Releases']
   },
   {
     title: 'Apps nativas macOS',
@@ -251,7 +302,7 @@ function renderProjectCard(project) {
     ? project.links
     : [
         ...(project.demo ? [{ label: 'Demo', href: project.demo }] : []),
-        ...(project.repo ? [{ label: 'Codigo', href: project.repo }] : [])
+        ...(project.repo ? [{ label: 'Código', href: project.repo }] : [])
       ];
 
   return `

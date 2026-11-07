@@ -2,11 +2,11 @@
 
 ## Resumen
 
-Portfolio personal de Ignacio Tirado. Sitio estatico en Vite con HTML, CSS custom, Tailwind CDN y JavaScript vanilla.
+Portfolio personal de Jorge Ignacio Tirado. Sitio estatico en Vite con HTML, CSS custom, Tailwind CDN y JavaScript vanilla.
 
 ## Objetivo
 
-Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proyectos y contacto con una landing clara y visualmente fuerte, sin mezclar contexto corporativo ajeno.
+Presentar experiencia fullstack (Angular, TypeScript y Go), IA aplicada, proyectos y contacto con una landing clara y visualmente fuerte; Kore solo como empleador, sin detalles internos.
 
 ## Estado actual
 
@@ -16,7 +16,7 @@ Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proye
 - Deploy workflow: `.github/workflows/deploy.yml`
 - Base Vite obligatoria: `'/portfolio/'`
 - Hook local: `.husky/pre-commit`
-- Superficie publica destacada: portfolio personal, dividido en Destacados (`Angular Dojo VlV`, `Angular Testing Lab VlV`, `code-kit-vlv`, `ClaudioBar VlV`) y Mas proyectos (`Paste-vlv`, `LockApp-vlv`, `Caffeine vlv`, `Tomito vlv`, `Dont Touch vlv`, `Screen size vlv`, `clasecitas-vlv` + `clasecitas-vlv-types` + `clasecitas-vlv-page`)
+- Superficie publica destacada: portfolio personal, dividido en Destacados (`Dojo Backend Go`, `Angular Dojo VlV`, `ngx-mat-datetime-panel`, `code-kit-vlv`) y Mas proyectos (`Angular Testing Lab VlV`, `ClaudioBar VlV`, `2FA-vlv`, `Paste-vlv`, `LockApp-vlv`, `Caffeine vlv`, `Tomito vlv`, `Dont Touch vlv`, `Screen size vlv`, `clasecitas-vlv` + `clasecitas-vlv-types` + `clasecitas-vlv-page`)
 
 ## Superficie editable
 
@@ -36,7 +36,8 @@ Presentar experiencia fullstack con especialidad en frontend, IA aplicada, proye
 - `clasecitas-vlv` debe presentarse como paquete npm publicado con repo, companion types y cheat sheet publico
 - `Caffeine vlv` debe presentarse como app macOS con release GitHub y fuente publicada en SourceForge; no afirmar binario SourceForge sin verificacion
 - `Tomito vlv` debe presentarse como app macOS con release GitHub y ZIP macOS publicado en SourceForge
-- El posicionamiento publico actual debe decir fullstack con especialidad en frontend
+- El posicionamiento publico actual debe decir Fullstack Developer: Angular, TypeScript y Go
+- SEO presente: og:image, og:locale, JSON-LD Person, robots.txt y sitemap.xml (actualizar `lastmod` al publicar cambios)
 - Al hablar de IA aplicada, priorizar agent engineering, harness engineering, loop engineering, SDD y TDD
 - No mencionar herramientas concretas de IA en copy publico cuando no aporten valor
 
