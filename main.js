@@ -1,19 +1,19 @@
 const featuredProjects = [
   {
-    title: 'Dojo Backend Go',
-    type: 'Go + Curso Open Source',
-    description:
-      'Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: construyes y extiendes un microservicio con capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.',
-    repo: 'https://github.com/VlV-515/dojo_backend_go',
-    tags: ['Go', 'Gin', 'PostgreSQL', 'GORM', 'Docker', 'Swagger', 'TDD']
-  },
-  {
     title: 'Angular Dojo VlV',
     type: 'Angular 20 + CI',
     description:
       'Plataforma de retos de Angular donde cada branch es una app real ya rota en un tema distinto: routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad. npm run verify certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.',
     repo: 'https://github.com/VlV-515/Angular-Dojo-VlV',
     tags: ['Angular 20', 'Zoneless', 'TypeScript', 'Jest', 'Playwright', 'CI/CD']
+  },
+  {
+    title: 'Dojo Backend Go',
+    type: 'Go + Curso Open Source',
+    description:
+      'Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: construyes y extiendes un microservicio con capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.',
+    repo: 'https://github.com/VlV-515/dojo_backend_go',
+    tags: ['Go', 'Gin', 'PostgreSQL', 'GORM', 'Docker', 'Swagger', 'TDD']
   },
   {
     title: 'ngx-mat-datetime-panel',

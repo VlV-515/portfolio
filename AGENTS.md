@@ -60,8 +60,8 @@ Este repositorio contiene exclusivamente el portfolio personal de **Jorge Ignaci
 Divididos en dos grupos en el sitio (`main.js`): Destacados (grid superior) y Mas proyectos (grid inferior).
 
 Destacados:
-- `Dojo Backend Go`
 - `Angular Dojo VlV`
+- `Dojo Backend Go`
 - `ngx-mat-datetime-panel`
 - `code-kit-vlv`
 

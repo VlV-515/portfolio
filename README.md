@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Fullstack Developer</strong><br />
-  Angular · TypeScript · Go | IA aplicada
+  IA aplicada
 </p>
 
 <p align="center">
@@ -20,13 +20,9 @@
 </p>
 
 <p align="center">
-  <strong>Angular + Go</strong>
-  ·
   <strong>10+ años de experiencia</strong>
   ·
-  <strong>ERP / SCM / E-commerce</strong>
-  ·
-  <strong>México</strong>
+  <strong>ERP / SCM / E-commerce / WEB</strong>
 </p>
 
 ## Sobre mí
@@ -69,20 +65,20 @@ Escribo tests de unidad, funcionales y end-to-end con foco en cobertura real y c
 
 ### Impacto técnico
 
-- Backend en Go para el ERP, trabajando de punta a punta con el frontend Angular
-- Migración progresiva de Angular 6 a Angular 19 en ERP, incluyendo el paso completo a standalone components
-- Liderazgo y desarrollo de la aplicación SCM en Angular 19, migrada a Angular 21
+- Migración progresiva de Angular 6 a Angular 21 en ERP, incluyendo el paso completo a standalone components
+- Liderazgo y desarrollo de la aplicación SCM, migrada de Angular 19 a Angular 21
 - Migración y mantenimiento de e-commerce de Angular 7 a Angular 14
 - Mejora de ciclos de desarrollo en más del 60%
 - Apps híbridas mobile-first con Ionic + Angular
 - Diseño y publicación de dojos open source (Angular Dojo VlV, Dojo Backend Go), una librería Angular en npm y apps nativas macOS
+- Backend en Go para el ERP, trabajando de punta a punta con el frontend Angular
 
 ### Enfoque actual
 
-- Entrega fullstack con Angular y Go y foco en experiencia de producto
 - AI engineering aplicado a discovery, implementación, pruebas y automatización
 - Colaboración cercana con negocio y producto
 - Mentoría técnica y entrevistas técnicas a nuevos prospectos
+- Entrega fullstack con Angular y Go y foco en experiencia de producto
 
 ## IA aplicada y AI engineering
 
@@ -92,13 +88,13 @@ Diseño flujos de trabajo con IA para acelerar exploración técnica, implementa
 
 ## Proyectos
 
-- **Dojo Backend Go**
-  Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.
-  [Repo](https://github.com/VlV-515/dojo_backend_go)
-
 - **Angular Dojo VlV**
   Plataforma de retos de Angular donde cada branch es una app real ya rota (routing, signals, forms reactivos, RxJS, zoneless, performance, SSR e hidratación, accesibilidad). `npm run verify` certifica si el reto quedó resuelto, con catálogo por cinturones, hints progresivos y CI en GitHub Actions con Jest y Playwright.
   [Repo](https://github.com/VlV-515/Angular-Dojo-VlV)
+
+- **Dojo Backend Go**
+  Curso práctico, gratuito y en español para aprender backend con Go a nivel empresarial: capas, pruebas, migraciones SQL, Docker, Swagger, arquitectura hexagonal y CI/CD, guiado por retos que empiezan en rojo y terminan en verde.
+  [Repo](https://github.com/VlV-515/dojo_backend_go)
 
 - **ngx-mat-datetime-panel**
   Librería publicada en npm: selector compacto de fecha y hora en un solo panel para Angular Material 21+, con modo rango y sin depender de moment, date-fns ni luxon.
